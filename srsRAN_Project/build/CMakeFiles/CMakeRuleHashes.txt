@@ -1,0 +1,8 @@
+# Hashes of file build rules.
+f5d5763ceb86ed5440d442a07e9741ac docs/CMakeFiles/doxygen
+249330b1790ae0e36b7614d1ee7b3b75 docs/CMakeFiles/doxygen-clean
+569eef3f331f4fe9572d2287b22f1e8f docs/CMakeFiles/doxygen-du-high
+a92e029aa5be18708ece01074addf23d docs/CMakeFiles/doxygen-fapi
+ff848107b239f25313686d3bd38345dd docs/CMakeFiles/doxygen-phy
+af55037a24ec49bf0ef51141e0ee4498 docs/CMakeFiles/doxygen-support
+04eacb9735c0208f78c5e319e4e1e00f lib/support/versioning/CMakeFiles/gen_build_info

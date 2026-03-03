@@ -1,0 +1,106 @@
+# This configuration file example shows how to configure the srsRAN Project gNB to allow srsUE to connect to it. 
+# This specific example uses ZMQ in place of a USRP for the RF-frontend, and creates an FDD cell with 10 MHz bandwidth. 
+# To run the srsRAN Project gNB with this config, use the following command: 
+#   sudo ./gnb -c gnb_zmq.yaml
+
+cu_cp:
+  amf:
+    addr: 127.0.0.5                 # The address or hostname of the AMF.
+    port: 38412
+    bind_addr: 127.0.0.254           # A local IP that the gNB binds to for traffic from the AMF.
+    supported_tracking_areas:
+      - tac: 29110
+        plmn_list:
+          - plmn: "21405"
+            tai_slice_support_list:
+              - sst: 1
+                sd: 16777215
+  inactivity_timer: 7200            # Sets the UE/PDU Session/DRB inactivity timer to 7200 seconds. Supported: [1 - 7200].
+
+ru_sdr:
+  device_driver: zmq                # The RF driver name.
+  device_args: tx_port=tcp://*:2101,rx_port=tcp://127.0.0.1:2100,base_srate=23.04e6 # Optionally pass arguments to the selected RF driver.
+  #device_args: tx_port=tcp://127.0.0.1:2000,rx_port=tcp://127.0.0.1:2001,base_srate=23.04e6 # Conexión TCP Directa (gNB TX=2000, RX=2001)
+  srate: 23.04                      # RF sample rate might need to be adjusted according to selected bandwidth.
+  tx_gain: 1                        # Transmit gain of the RF might need to adjusted to the given situation.
+  rx_gain: 20                       # Receive gain of the RF might need to adjusted to the given situation.
+
+cell_cfg:
+
+  slicing: 
+    - sst: 1
+      sd: 0xffffff
+
+  dl_arfcn: 368500                  # ARFCN of the downlink carrier (center frequency).
+  band: 3                           # The NR band.
+  channel_bandwidth_MHz: 20         # Bandwith in MHz. Number of PRBs will be automatically derived.
+  common_scs: 15                    # Subcarrier spacing in kHz used for data.
+  plmn: "21405"                     # PLMN broadcasted by the gNB.
+  tac: 29110                        # Tracking area code (needs to match the core configuration).
+  pci: 25
+  # Definicion del numero de antenas para downlink y uplink / ports
+  nof_antennas_dl: 1                # Sets the number of antennas for downlink transmission. Supported: [1, 2, 4].
+  nof_antennas_ul: 1                # Sets the number of antennas for uplink transmission. Supported: [1, 2, 4].
+
+  prach:
+    prach_config_index: 1           # Sets PRACH config to match what is expected by srsUE. [0 - 255]
+
+  ssb:
+    ssb_period: 10                  # Sets the period of SSB scheduling in milliseconds. Supported: [5, 10, 20].
+    ssb_block_power_dbm: 0        # Optional INT (-16). Sets the SS PBCH block power in dBm (referencia a salida RF, INTERNAMENTE dBr). Supported: [-60 - +50].
+    pss_to_sss_epre_db: 0           # Optional UINT (0). Sets the Synchronization Signal Block Primary Synchronization Signal to Secondary Synchronization Signal Energy Per Resource Element ratio in dB. Supported: [0, 3].
+  
+  pdcch:
+    common:
+      ss0_index: 0                  # Set search space zero index to match srsUE capabilities
+      coreset0_index: 12            # Set search CORESET Zero index to match srsUE capabilities
+    dedicated:
+      ss2_type: common              # Search Space type, has to be set to commons
+      dci_format_0_1_and_1_1: false # Set correct DCI format (fallback)
+  
+  pdsch:
+    mcs_table: qam64                # Sets PDSCH MCS to 64 QAM
+  pusch:
+    mcs_table: qam64                # Sets PUSCH MCS to 64 QAM
+
+log:
+  filename: /tmp/gnb.log            # Path of the log file.
+  all_level: info                   # Logging level applied to all layers.
+
+  phy_level: debug
+  mac_level: debug
+  rlc_level: debug
+  radio_level: debug
+  du_level: debug
+  hex_max_size: 0
+
+pcap:
+  mac_enable: true                 # Set to true to enable MAC-layer PCAPs.
+  mac_type: dlt
+  mac_filename: /tmp/gnb_mac.pcap   # Path where the MAC PCAP is stored.
+  ngap_enable: true                # Set to true to enable NGAP PCAPs.
+  ngap_filename: /tmp/gnb_ngap.pcap # Path where the NGAP PCAP is stored.
+
+metrics:
+  autostart_stdout_metrics: true     # Habilita el reporte automático de métricas en stdout
+  enable_json: false                  # Habilita formato JSON para las métricas
+  enable_log: true                  # Reporte de métricas en logs
+  enable_verbose: false              # Reporte de métricas con detalle extendido
+  layers: 
+    enable_app_usage: true          # Métricas de uso de aplicación
+ #   enable_ngap: true                # Métricas NGAP
+  #  enable_rrc: true                 # Métricas RRC (CU-CP)
+    enable_e1ap: false               # Métricas E1AP
+    enable_pdcp: true                # Métricas PDCP - Importante para monitoreo de datos
+  #  skip_cu_up_executor: true        # Skip logging CU-UP executor metrics
+    enable_sched: true               # Métricas del scheduler DU - Importante para monitoreo de recursos
+    enable_rlc: true                 # Métricas RLC - Importante para monitoreo de radio link
+    enable_mac: true                 # Métricas MAC - Importante para monitoreo de capa MAC
+    enable_du_low: true             # Métricas DU low (capa física superior)
+    enable_ru: true              # Métricas de Radio Unit
+  periodicity: 
+    app_usage_report_period: 500     # Período de reporte de uso de aplicación en ms (20 muestras/seg)
+  # app_usage_report_period: 1000      # Período de reporte de uso de aplicación en ms (10 muestras/seg)
+    cu_cp_report_period: 1000          # Período de reporte CU-CP en ms (10 muestras/seg) - mínimo práctico
+    cu_up_report_period: 1000          # Período de reporte CU-UP en ms (10 muestras/seg) - LÍMITE: >10 ms
+    du_report_period: 500          # Período de reporte DU en ms (10 muestras/seg)
