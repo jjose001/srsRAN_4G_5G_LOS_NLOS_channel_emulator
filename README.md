@@ -1,42 +1,42 @@
-# Implementación de Canales LOS TDL-D / TDL-E en srsRAN_4G
+# Implementation of LOS TDL-D / TDL-E Channels in srsRAN_4G
 
-**Fecha:** 2026-03-04  
-**Repositorio:** `srsRAN_TDL_LOS_JOAO/srsRAN_4G`  
-**Versión:** 1.0
-
----
-
-## 1. Objetivo
-
-Añadir soporte completo para los modelos de canal **TDL-D** y **TDL-E** (canales LOS según 3GPP TR 38.901) al emulador de canal interno de `srsRAN_4G`, manteniendo **compatibilidad total hacia atrás** con los modelos NLOS ya existentes (EPA/EVA/ETU/TDL-A/B/C).
+**Date:** 2026-03-04  
+**Repository:** `srsRAN_TDL_LOS_JOAO/srsRAN_4G`  
+**Version:** 1.0
 
 ---
 
-## 2. Contexto y Motivación
+## 1. Objective
 
-Los modelos **TDL-D** y **TDL-E** representan escenarios de propagación con **Línea de Vista (LOS)** entre transmisor y receptor. A diferencia de los modelos NLOS (TDL-A/B/C), en LOS el **primer tap** sigue una distribución **Riciana** (mezcla de componente determinista + componente difusa Rayleigh), mientras que el resto de taps mantienen el comportamiento Rayleigh habitual.
+Add full support for the **TDL-D** and **TDL-E** channel models (**LOS channels** as per 3GPP TR 38.901) to the internal channel emulator in `srsRAN_4G`, while maintaining **full backwards compatibility** with the existing NLOS models (EPA/EVA/ETU/TDL-A/B/C).
 
-### 2.1 Ecuación del Tap 0 (Rice)
+---
+
+## 2. Context and Motivation
+
+The **TDL-D** and **TDL-E** models represent propagation scenarios with **Line of Sight (LOS)** between transmitter and receiver. Unlike the NLOS models (TDL-A/B/C), under LOS the **first tap** follows a **Rician** distribution (mixture of a deterministic component + a diffuse Rayleigh component), while the remaining taps retain the usual Rayleigh behaviour.
+
+### 2.1 Tap 0 Equation (Rice)
 
 $$a_0(t) = \sqrt{P_0} \left( \sqrt{\frac{K}{K+1}} \cdot e^{j(2\pi f_S t + \phi_0)} + \sqrt{\frac{1}{K+1}} \cdot g_0(t) \right)$$
 
-- **K**: K-factor lineal del perfil (TDL-D: 13.3 dB = 21.38; TDL-E: 22.0 dB = 158.49)
-- **f_S = 0.7 · f_D**: Frecuencia Doppler del pico LOS (según TR 38.901)
-- **φ_0**: Fase inicial uniforme en [0, 2π), generada aleatoriamente en el arranque
-- **g_0(t)**: Proceso Rayleigh (Jakes SoS, ya existente en el motor)
-- **P_0 = 0 dB**: Potencia total normalizada del tap 0 (según nota de la tabla 3GPP)
+- **K**: linear K-factor of the profile (TDL-D: 13.3 dB = 21.38; TDL-E: 22.0 dB = 158.49)
+- **f_S = 0.7 · f_D**: Doppler frequency of the LOS peak (as per TR 38.901)
+- **φ_0**: initial phase uniformly distributed in [0, 2π), randomly generated at start-up
+- **g_0(t)**: Rayleigh process (Jakes SoS, already present in the engine)
+- **P_0 = 0 dB**: normalised total power of tap 0 (as per the 3GPP table note)
 
-### 2.2 Taps 1..L (Rayleigh, igual que modelos NLOS)
+### 2.2 Taps 1..L (Rayleigh, same as NLOS models)
 
 $$a_n(t) = \sqrt{P_n} \cdot g_n(t), \quad n \geq 1$$
 
 ---
 
-## 3. Tablas de Parámetros (DS = 50 ns)
+## 3. Parameter Tables (DS = 50 ns)
 
-### TDL-D — 13 Taps Rayleigh + Tap 0 Rice (total 13 índices, tap[0] = Rice)
+### TDL-D — Tap 0 Rice + remaining Rayleigh taps (total 13 indices, tap[0] = Rice)
 
-| Idx | Delay norm | Delay (ns) | Power (dB) | Tipo  |
+| Idx | Delay norm | Delay (ns) | Power (dB) | Type  |
 |-----|-----------|------------|------------|-------|
 | 0   | 0.000     | 0.00       | 0.0 total  | Rice (K=13.3 dB) |
 | 1   | 0.035     | 1.75       | -18.8      | Rayleigh |
@@ -52,11 +52,11 @@ $$a_n(t) = \sqrt{P_n} \cdot g_n(t), \quad n \geq 1$$
 | 11  | 9.708     | 485.40     | -30.0      | Rayleigh |
 | 12  | 12.525    | 626.25     | -27.7      | Rayleigh |
 
-**Nota:** El tap 0 tiene K₁ = 13.3 dB y potencia media de 0 dB.
+**Note:** Tap 0 has K₁ = 13.3 dB and an average power of 0 dB.
 
-### TDL-E — 14 Taps Rayleigh + Tap 0 Rice (total 14 índices, tap[0] = Rice)
+### TDL-E — Tap 0 Rice + remaining Rayleigh taps (total 14 indices, tap[0] = Rice)
 
-| Idx | Delay norm | Delay (ns) | Power (dB) | Tipo  |
+| Idx | Delay norm | Delay (ns) | Power (dB) | Type  |
 |-----|-----------|------------|------------|-------|
 | 0   | 0.0000    | 0.00       | 0.0 total  | Rice (K=22.0 dB) |
 | 1   | 0.5133    | 25.67      | -15.8      | Rayleigh |
@@ -73,82 +73,81 @@ $$a_n(t) = \sqrt{P_n} \cdot g_n(t), \quad n \geq 1$$
 | 12  | 12.0034   | 600.17     | -29.8      | Rayleigh |
 | 13  | 20.6519   | 1032.60    | -29.2      | Rayleigh |
 
-**Nota:** El tap 0 tiene K₁ = 22.0 dB y potencia media de 0 dB.
+**Note:** Tap 0 has K₁ = 22.0 dB and an average power of 0 dB.
 
 ---
 
-## 4. Ficheros Modificados
+## 4. Modified Files
 
-Solo se modifican **2 ficheros del motor de fading**. El resto del stack no requiere cambios gracias a la arquitectura existente.
+Only **2 files** in the fading engine are modified. The rest of the stack requires no changes thanks to the existing architecture.
 
 ### 4.1 `lib/include/srsran/phy/channel/fading.h`
 
-**Cambios:**
-1. Añadir `srsran_channel_fading_model_tdld` y `srsran_channel_fading_model_tdle` al enum.
-2. Añadir 3 campos a la struct `srsran_channel_fading_t` para el estado LOS:
-   - `bool is_los` — activa la rama Rice en tap 0
-   - `float k_factor` — K lineal del tap 0
-   - `float los_phi0` — Fase inicial aleatoria φ₀
+**Changes:**
+1. Add `srsran_channel_fading_model_tdld` and `srsran_channel_fading_model_tdle` to the enum.
+2. Add 3 fields to the `srsran_channel_fading_t` struct for the LOS state:
+   - `bool is_los` — enables the Rice branch on tap 0
+   - `float k_factor` — linear K for tap 0
+   - `float los_phi0` — random initial phase φ₀
 
 ### 4.2 `lib/src/phy/channel/fading.c`
 
-**Cambios:**
-1. Ampliar `nof_taps[9]` con 2 entradas (TDL-D: 13, TDL-E: 14).
-2. Ampliar `excess_tap_delay_ns[9][...]` con las tablas TDL-D/E (DS=50 ns).
-3. Ampliar `relative_power_db[9][...]` con las potencias de los taps Rayleigh. Para asegurar una **ganancia media total de 1.0 (0 dB)**, se ha aplicado un offset de normalización a cada tabla:
-   - **TDL-D:** Offset de -0.1446 dB aplicado a todos los taps.
-   - **TDL-E:** Offset de -0.1707 dB aplicado a todos los taps.
-4. Añadir `parse_model()` entries para `tdld`/`tdl-d` y `tdle`/`tdl-e`.
-5. Añadir helper `get_los_phasor(t, f_d, phi0) → cf_t`.
-6. Modificar `generate_taps()`: para `q->is_los` en tap `i==0`, combinar componente LOS + Rayleigh escaladas.
-7. Modificar `srsran_channel_fading_init()`: detectar modelo LOS, inicializar `is_los`, `k_factor`, `los_phi0`.
+**Changes:**
+1. Extend `nof_taps[9]` with 2 entries (TDL-D: 13, TDL-E: 14).
+2. Extend `excess_tap_delay_ns[9][...]` with the TDL-D/E tables (DS=50 ns).
+3. Extend `relative_power_db[9][...]` with the Rayleigh tap powers. To ensure a **total mean gain of 1.0 (0 dB)**, a normalisation offset has been applied to each table:
+   - **TDL-D:** -0.1446 dB offset applied to all taps.
+   - **TDL-E:** -0.1707 dB offset applied to all taps.
+4. Add `parse_model()` entries for `tdld`/`tdl-d` and `tdle`/`tdl-e`.
+5. Add helper `get_los_phasor(t, f_d, phi0) → cf_t`.
+6. Modify `generate_taps()`: for `q->is_los` at tap `i==0`, combine scaled LOS + Rayleigh components.
+7. Modify `srsran_channel_fading_init()`: detect LOS model, initialise `is_los`, `k_factor`, `los_phi0`.
 
 ---
 
-## 5. Arquitectura de la Solución (Reutilización Máxima)
+## 5. Solution Architecture (Maximum Reuse)
 
-```
 fading_execute()
-    └─► generate_taps(q, time)
-            │
-            ├─ tap i=0, is_los=true:
-            │     rayleigh_coeff = get_doppler_dispersion(...)  ← REUTILIZADO
-            │     los_coeff      = get_los_phasor(t, 0.7*fd, phi0)  ← NUEVO
-            │     a = sqrt(P0) * (sqrt(K/(K+1))*los_coeff + sqrt(1/(K+1))*rayleigh_coeff)
-            │
-            └─ tap i>0 (o is_los=false para NLOS):
-                  a = get_doppler_dispersion(...)  ← SIN CAMBIO
-```
+└─► generate_taps(q, time)
+│
+├─ tap i=0, is_los=true:
+│ rayleigh_coeff = get_doppler_dispersion(...) ← REUSED
+│ los_coeff = get_los_phasor(t, 0.7*fd, phi0) ← NEW
+│ a = sqrt(P0) * (sqrt(K/(K+1))*los_coeff + sqrt(1/(K+1))*rayleigh_coeff)
+│
+└─ tap i>0 (or is_los=false for NLOS):
+a = get_doppler_dispersion(...) ← UNCHANGED
 
-Todo el pipeline FFT/Overlap-Add de `filter_segment()` se reutiliza sin cambios.
+
+The whole FFT/Overlap-Add pipeline in `filter_segment()` is reused without changes.
 
 ---
 
-## 6. Compatibilidad
+## 6. Compatibility
 
-| Modelo | Estado |
+| Model | Status |
 |--------|--------|
-| `none` | ✅ Sin cambios |
-| `epaX`, `evaX`, `etuX` | ✅ Sin cambios |
-| `tdlaX`, `tdlbX`, `tdlcX` | ✅ Sin cambios |
+| `none` | ✅ Unchanged |
+| `epaX`, `evaX`, `etuX` | ✅ Unchanged |
+| `tdlaX`, `tdlbX`, `tdlcX` | ✅ Unchanged |
 | `tdldX` | 🆕 TDL-D LOS (Rice tap 0, K=13.3 dB) |
 | `tdleX` | 🆕 TDL-E LOS (Rice tap 0, K=22.0 dB) |
 
-Uso en `ue.conf`:
+Usage in `ue.conf`:
 ```ini
 [channel.ul.fading]
 enable = true
-model  = tdld3       ; TDL-D con Doppler 3 Hz
-; model = tdle5      ; TDL-E con Doppler 5 Hz
+model  = tdld3       ; TDL-D with 3 Hz Doppler
+; model = tdle5      ; TDL-E with 5 Hz Doppler
 ```
 
 ---
 
-## 7. Estrategia de Verificación
+## 7. Verification Strategy
 
-1. **Compilación limpia** con `make srsue -j$(nproc)` desde el directorio `build/`.
-2. **Test unitario** `fading_channel_test` con modelos `tdld` y `tdle`.
-3. **Regresión NLOS** con `tdla`, `epa` para confirmar backward compatibility.
-4. **Integración** en sesión srsUE con fading LOS activo.
+- Clean build with `make srsue -j$(nproc)` from the `build/` directory.
+- Unit test `fading_channel_test` with `tdld` and `tdle` models.
+- NLOS regression with `tdla`, `epa` to confirm backwards compatibility.
+- Integration in an srsUE session with LOS fading enabled.
 
-Ver `validation.md` para resultados completos.
+See `validation.md` for the full results.
