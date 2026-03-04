@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DASSERTS_ENABLED -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DENABLE_GUI -DENABLE_RF_PLUGINS -DENABLE_TIMEPROF -DENABLE_UHD -DENABLE_ZEROMQ -DHAVE_BACKWARD -Dsrsran_rf_uhd_EXPORTS
 
-CXX_INCLUDES = -I/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/lib/include -I/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include
+CXX_INCLUDES = -I/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/include -I/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include
 
 CXX_FLAGS =  -Wall -Wno-comment -Wno-reorder -Wno-unused-variable -Wtype-limits -std=c++14 -fno-strict-aliasing -Wno-unused-but-set-variable -march=native -mfpmath=sse -mavx2 -DLV_HAVE_AVX2 -DLV_HAVE_AVX -DLV_HAVE_SSE -fvisibility=hidden -O3 -fno-trapping-math -fno-math-errno -DBUILD_TYPE_RELEASE -Werror -Wno-maybe-uninitialized -O3 -DNDEBUG -fPIC
 

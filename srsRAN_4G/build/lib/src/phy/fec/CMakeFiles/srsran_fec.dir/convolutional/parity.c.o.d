@@ -1,5 +1,5 @@
 lib/src/phy/fec/CMakeFiles/srsran_fec.dir/convolutional/parity.c.o: \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/src/phy/fec/convolutional/parity.c \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/phy/fec/convolutional/parity.c \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \

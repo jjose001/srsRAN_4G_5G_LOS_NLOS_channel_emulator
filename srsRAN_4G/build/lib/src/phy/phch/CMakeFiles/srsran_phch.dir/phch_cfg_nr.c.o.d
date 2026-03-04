@@ -1,11 +1,11 @@
 lib/src/phy/phch/CMakeFiles/srsran_phch.dir/phch_cfg_nr.c.o: \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/src/phy/phch/phch_cfg_nr.c \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/phy/phch/phch_cfg_nr.c \
  /usr/include/stdc-predef.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/phch/phch_cfg_nr.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/ch_estimation/csi_rs_cfg.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/config.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/common/phy_common_nr.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/common/phy_common.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/phch/phch_cfg_nr.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/ch_estimation/csi_rs_cfg.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/config.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/common/phy_common_nr.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/common/phy_common.h \
  /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -48,25 +48,25 @@ lib/src/phy/phch/CMakeFiles/srsran_phch.dir/phch_cfg_nr.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/inttypes.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/phch/sch_cfg_nr.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/fec/softbuffer.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/phch/uci_cfg_nr.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/phch/csi_cfg.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/phch/pucch_cfg_nr.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/phch/harq_ack_cfg.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/utils/re_pattern.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/utils/../common/phy_common_nr.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/ch_estimation/dmrs_sch.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/ch_estimation/chest_dl.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/ch_estimation/chest_common.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/ch_estimation/refsignal_dl.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/common/phy_common.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/resampling/interp.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/sync/pss.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/utils/convolution.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/dft/dft.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/utils/filter.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/utils/vector.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/phch/sch_cfg_nr.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/fec/softbuffer.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/phch/uci_cfg_nr.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/phch/csi_cfg.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/phch/pucch_cfg_nr.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/phch/harq_ack_cfg.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/utils/re_pattern.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/utils/../common/phy_common_nr.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/ch_estimation/dmrs_sch.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/ch_estimation/chest_dl.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/ch_estimation/chest_common.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/ch_estimation/refsignal_dl.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/common/phy_common.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/resampling/interp.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/sync/pss.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/utils/convolution.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/dft/dft.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/utils/filter.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/utils/vector.h \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
@@ -97,15 +97,15 @@ lib/src/phy/phch/CMakeFiles/srsran_phch.dir/phch_cfg_nr.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/ch_estimation/wiener_dl.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/utils/random.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/phch/csi.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/phch/uci_cfg_nr.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/phch/uci_nr.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/fec/crc.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/fec/polar/polar_code.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/utils/debug.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/utils/phy_logger.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/ch_estimation/wiener_dl.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/utils/random.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/phch/csi.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/phch/uci_cfg_nr.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/phch/uci_nr.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/fec/crc.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/fec/polar/polar_code.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/utils/debug.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/utils/phy_logger.h \
  /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
  /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
@@ -125,7 +125,7 @@ lib/src/phy/phch/CMakeFiles/srsran_phch.dir/phch_cfg_nr.c.o: \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /usr/include/x86_64-linux-gnu/sys/time.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/fec/polar/polar_decoder.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/fec/polar/polar_encoder.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/fec/polar/polar_rm.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/phch/pucch_cfg_nr.h
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/fec/polar/polar_decoder.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/fec/polar/polar_encoder.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/fec/polar/polar_rm.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/phch/pucch_cfg_nr.h

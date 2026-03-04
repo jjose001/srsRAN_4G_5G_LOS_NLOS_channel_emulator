@@ -1,7 +1,7 @@
 lib/src/common/CMakeFiles/srsran_common.dir/pcap.c.o: \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/src/common/pcap.c \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/common/pcap.c \
  /usr/include/stdc-predef.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/common/pcap.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/common/pcap.h \
  /usr/include/inttypes.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \

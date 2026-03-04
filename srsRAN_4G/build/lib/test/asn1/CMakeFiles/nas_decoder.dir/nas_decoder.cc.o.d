@@ -1,8 +1,8 @@
 lib/test/asn1/CMakeFiles/nas_decoder.dir/nas_decoder.cc.o: \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/test/asn1/nas_decoder.cc \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/test/asn1/nas_decoder.cc \
  /usr/include/stdc-predef.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/asn1/liblte_mme.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/asn1/liblte_common.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/asn1/liblte_mme.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/asn1/liblte_common.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -126,7 +126,7 @@ lib/test/asn1/CMakeFiles/nas_decoder.dir/nas_decoder.cc.o: \
  /usr/include/c++/13/bits/functional_hash.h \
  /usr/include/c++/13/bits/hash_bytes.h \
  /usr/include/c++/13/bits/basic_string.tcc \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/common/common.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/common/common.h \
  /usr/include/c++/13/chrono /usr/include/c++/13/bits/chrono.h \
  /usr/include/c++/13/ratio /usr/include/c++/13/cstdint \
  /usr/include/c++/13/limits /usr/include/c++/13/ctime /usr/include/time.h \
@@ -166,7 +166,7 @@ lib/test/asn1/CMakeFiles/nas_decoder.dir/nas_decoder.cc.o: \
  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
  /usr/include/c++/13/backward/auto_ptr.h \
  /usr/include/x86_64-linux-gnu/sys/time.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/common/phy_common.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/common/phy_common.h \
  /usr/include/c++/13/math.h /usr/include/c++/13/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -178,7 +178,7 @@ lib/test/asn1/CMakeFiles/nas_decoder.dir/nas_decoder.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/config.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/config.h \
  /usr/include/c++/13/fstream /usr/include/c++/13/istream \
  /usr/include/c++/13/ios /usr/include/c++/13/bits/ios_base.h \
  /usr/include/c++/13/bits/locale_classes.h \

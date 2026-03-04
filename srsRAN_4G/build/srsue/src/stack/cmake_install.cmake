@@ -1,4 +1,4 @@
-# Install script for directory: /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsue/src/stack
+# Install script for directory: /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsue/src/stack
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,12 +44,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsue/src/stack/mac_common/cmake_install.cmake")
-  include("/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsue/src/stack/mac/cmake_install.cmake")
-  include("/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsue/src/stack/mac_nr/cmake_install.cmake")
-  include("/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsue/src/stack/rrc/cmake_install.cmake")
-  include("/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsue/src/stack/rrc_nr/cmake_install.cmake")
-  include("/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsue/src/stack/upper/cmake_install.cmake")
+  include("/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsue/src/stack/mac_common/cmake_install.cmake")
+  include("/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsue/src/stack/mac/cmake_install.cmake")
+  include("/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsue/src/stack/mac_nr/cmake_install.cmake")
+  include("/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsue/src/stack/rrc/cmake_install.cmake")
+  include("/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsue/src/stack/rrc_nr/cmake_install.cmake")
+  include("/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsue/src/stack/upper/cmake_install.cmake")
 
 endif()
 

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/src/phy/sync/test/pss_usrp.c" "lib/src/phy/sync/test/CMakeFiles/pss_usrp.dir/pss_usrp.c.o" "gcc" "lib/src/phy/sync/test/CMakeFiles/pss_usrp.dir/pss_usrp.c.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/phy/sync/test/pss_usrp.c" "lib/src/phy/sync/test/CMakeFiles/pss_usrp.dir/pss_usrp.c.o" "gcc" "lib/src/phy/sync/test/CMakeFiles/pss_usrp.dir/pss_usrp.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

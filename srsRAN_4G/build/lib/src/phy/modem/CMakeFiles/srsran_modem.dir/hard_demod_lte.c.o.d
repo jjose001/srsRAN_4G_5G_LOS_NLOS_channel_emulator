@@ -1,5 +1,5 @@
 lib/src/phy/modem/CMakeFiles/srsran_modem.dir/hard_demod_lte.c.o: \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/src/phy/modem/hard_demod_lte.c \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/phy/modem/hard_demod_lte.c \
  /usr/include/stdc-predef.h /usr/include/complex.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -30,13 +30,13 @@ lib/src/phy/modem/CMakeFiles/srsran_modem.dir/hard_demod_lte.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/src/phy/modem/hard_demod_lte.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/config.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/phy/modem/hard_demod_lte.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/config.h \
  /usr/include/inttypes.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/modem/demod_hard.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/modem/modem_table.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/modem/demod_hard.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/modem/modem_table.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/phy/common/phy_common.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/phy/common/phy_common.h \
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \

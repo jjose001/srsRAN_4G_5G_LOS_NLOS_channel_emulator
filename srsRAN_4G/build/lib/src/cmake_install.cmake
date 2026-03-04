@@ -1,4 +1,4 @@
-# Install script for directory: /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/src
+# Install script for directory: /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,17 +44,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/lib/src/asn1/cmake_install.cmake")
-  include("/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/lib/src/common/cmake_install.cmake")
-  include("/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/lib/src/mac/cmake_install.cmake")
-  include("/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/lib/src/phy/cmake_install.cmake")
-  include("/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/lib/src/radio/cmake_install.cmake")
-  include("/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/lib/src/rlc/cmake_install.cmake")
-  include("/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/lib/src/pdcp/cmake_install.cmake")
-  include("/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/lib/src/gtpu/cmake_install.cmake")
-  include("/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/lib/src/srslog/cmake_install.cmake")
-  include("/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/lib/src/support/cmake_install.cmake")
-  include("/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/lib/src/system/cmake_install.cmake")
+  include("/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/src/asn1/cmake_install.cmake")
+  include("/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/src/common/cmake_install.cmake")
+  include("/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/src/mac/cmake_install.cmake")
+  include("/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/src/phy/cmake_install.cmake")
+  include("/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/src/radio/cmake_install.cmake")
+  include("/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/src/rlc/cmake_install.cmake")
+  include("/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/src/pdcp/cmake_install.cmake")
+  include("/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/src/gtpu/cmake_install.cmake")
+  include("/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/src/srslog/cmake_install.cmake")
+  include("/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/src/support/cmake_install.cmake")
+  include("/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/src/system/cmake_install.cmake")
 
 endif()
 

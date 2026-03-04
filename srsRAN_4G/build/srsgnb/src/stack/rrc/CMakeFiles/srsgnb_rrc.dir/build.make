@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G
+CMAKE_SOURCE_DIR = /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build
+CMAKE_BINARY_DIR = /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build
 
 # Include any dependencies generated for this target.
 include srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/depend.make
@@ -70,74 +70,74 @@ include srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/progress.make
 include srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/flags.make
 
 srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr.cc.o: srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/flags.make
-srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr.cc.o: /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/rrc_nr.cc
+srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr.cc.o: /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/rrc_nr.cc
 srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr.cc.o: srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr.cc.o"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr.cc.o -MF CMakeFiles/srsgnb_rrc.dir/rrc_nr.cc.o.d -o CMakeFiles/srsgnb_rrc.dir/rrc_nr.cc.o -c /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/rrc_nr.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr.cc.o"
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr.cc.o -MF CMakeFiles/srsgnb_rrc.dir/rrc_nr.cc.o.d -o CMakeFiles/srsgnb_rrc.dir/rrc_nr.cc.o -c /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/rrc_nr.cc
 
 srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/srsgnb_rrc.dir/rrc_nr.cc.i"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/rrc_nr.cc > CMakeFiles/srsgnb_rrc.dir/rrc_nr.cc.i
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/rrc_nr.cc > CMakeFiles/srsgnb_rrc.dir/rrc_nr.cc.i
 
 srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/srsgnb_rrc.dir/rrc_nr.cc.s"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/rrc_nr.cc -o CMakeFiles/srsgnb_rrc.dir/rrc_nr.cc.s
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/rrc_nr.cc -o CMakeFiles/srsgnb_rrc.dir/rrc_nr.cc.s
 
 srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_ue.cc.o: srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/flags.make
-srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_ue.cc.o: /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/rrc_nr_ue.cc
+srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_ue.cc.o: /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/rrc_nr_ue.cc
 srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_ue.cc.o: srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_ue.cc.o"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_ue.cc.o -MF CMakeFiles/srsgnb_rrc.dir/rrc_nr_ue.cc.o.d -o CMakeFiles/srsgnb_rrc.dir/rrc_nr_ue.cc.o -c /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/rrc_nr_ue.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_ue.cc.o"
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_ue.cc.o -MF CMakeFiles/srsgnb_rrc.dir/rrc_nr_ue.cc.o.d -o CMakeFiles/srsgnb_rrc.dir/rrc_nr_ue.cc.o -c /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/rrc_nr_ue.cc
 
 srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_ue.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/srsgnb_rrc.dir/rrc_nr_ue.cc.i"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/rrc_nr_ue.cc > CMakeFiles/srsgnb_rrc.dir/rrc_nr_ue.cc.i
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/rrc_nr_ue.cc > CMakeFiles/srsgnb_rrc.dir/rrc_nr_ue.cc.i
 
 srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_ue.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/srsgnb_rrc.dir/rrc_nr_ue.cc.s"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/rrc_nr_ue.cc -o CMakeFiles/srsgnb_rrc.dir/rrc_nr_ue.cc.s
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/rrc_nr_ue.cc -o CMakeFiles/srsgnb_rrc.dir/rrc_nr_ue.cc.s
 
 srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_security_context.cc.o: srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/flags.make
-srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_security_context.cc.o: /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/rrc_nr_security_context.cc
+srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_security_context.cc.o: /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/rrc_nr_security_context.cc
 srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_security_context.cc.o: srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_security_context.cc.o"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_security_context.cc.o -MF CMakeFiles/srsgnb_rrc.dir/rrc_nr_security_context.cc.o.d -o CMakeFiles/srsgnb_rrc.dir/rrc_nr_security_context.cc.o -c /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/rrc_nr_security_context.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_security_context.cc.o"
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_security_context.cc.o -MF CMakeFiles/srsgnb_rrc.dir/rrc_nr_security_context.cc.o.d -o CMakeFiles/srsgnb_rrc.dir/rrc_nr_security_context.cc.o -c /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/rrc_nr_security_context.cc
 
 srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_security_context.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/srsgnb_rrc.dir/rrc_nr_security_context.cc.i"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/rrc_nr_security_context.cc > CMakeFiles/srsgnb_rrc.dir/rrc_nr_security_context.cc.i
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/rrc_nr_security_context.cc > CMakeFiles/srsgnb_rrc.dir/rrc_nr_security_context.cc.i
 
 srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_security_context.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/srsgnb_rrc.dir/rrc_nr_security_context.cc.s"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/rrc_nr_security_context.cc -o CMakeFiles/srsgnb_rrc.dir/rrc_nr_security_context.cc.s
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/rrc_nr_security_context.cc -o CMakeFiles/srsgnb_rrc.dir/rrc_nr_security_context.cc.s
 
 srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/cell_asn1_config.cc.o: srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/flags.make
-srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/cell_asn1_config.cc.o: /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/cell_asn1_config.cc
+srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/cell_asn1_config.cc.o: /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/cell_asn1_config.cc
 srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/cell_asn1_config.cc.o: srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/cell_asn1_config.cc.o"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/cell_asn1_config.cc.o -MF CMakeFiles/srsgnb_rrc.dir/cell_asn1_config.cc.o.d -o CMakeFiles/srsgnb_rrc.dir/cell_asn1_config.cc.o -c /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/cell_asn1_config.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/cell_asn1_config.cc.o"
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/cell_asn1_config.cc.o -MF CMakeFiles/srsgnb_rrc.dir/cell_asn1_config.cc.o.d -o CMakeFiles/srsgnb_rrc.dir/cell_asn1_config.cc.o -c /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/cell_asn1_config.cc
 
 srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/cell_asn1_config.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/srsgnb_rrc.dir/cell_asn1_config.cc.i"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/cell_asn1_config.cc > CMakeFiles/srsgnb_rrc.dir/cell_asn1_config.cc.i
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/cell_asn1_config.cc > CMakeFiles/srsgnb_rrc.dir/cell_asn1_config.cc.i
 
 srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/cell_asn1_config.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/srsgnb_rrc.dir/cell_asn1_config.cc.s"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/cell_asn1_config.cc -o CMakeFiles/srsgnb_rrc.dir/cell_asn1_config.cc.s
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/cell_asn1_config.cc -o CMakeFiles/srsgnb_rrc.dir/cell_asn1_config.cc.s
 
 srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_du_manager.cc.o: srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/flags.make
-srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_du_manager.cc.o: /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/rrc_nr_du_manager.cc
+srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_du_manager.cc.o: /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/rrc_nr_du_manager.cc
 srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_du_manager.cc.o: srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_du_manager.cc.o"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_du_manager.cc.o -MF CMakeFiles/srsgnb_rrc.dir/rrc_nr_du_manager.cc.o.d -o CMakeFiles/srsgnb_rrc.dir/rrc_nr_du_manager.cc.o -c /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/rrc_nr_du_manager.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_du_manager.cc.o"
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_du_manager.cc.o -MF CMakeFiles/srsgnb_rrc.dir/rrc_nr_du_manager.cc.o.d -o CMakeFiles/srsgnb_rrc.dir/rrc_nr_du_manager.cc.o -c /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/rrc_nr_du_manager.cc
 
 srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_du_manager.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/srsgnb_rrc.dir/rrc_nr_du_manager.cc.i"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/rrc_nr_du_manager.cc > CMakeFiles/srsgnb_rrc.dir/rrc_nr_du_manager.cc.i
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/rrc_nr_du_manager.cc > CMakeFiles/srsgnb_rrc.dir/rrc_nr_du_manager.cc.i
 
 srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_du_manager.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/srsgnb_rrc.dir/rrc_nr_du_manager.cc.s"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/rrc_nr_du_manager.cc -o CMakeFiles/srsgnb_rrc.dir/rrc_nr_du_manager.cc.s
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsgnb/src/stack/rrc/rrc_nr_du_manager.cc -o CMakeFiles/srsgnb_rrc.dir/rrc_nr_du_manager.cc.s
 
 # Object files for target srsgnb_rrc
 srsgnb_rrc_OBJECTS = \
@@ -157,19 +157,19 @@ srsgnb/src/stack/rrc/libsrsgnb_rrc.a: srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc
 srsgnb/src/stack/rrc/libsrsgnb_rrc.a: srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_du_manager.cc.o
 srsgnb/src/stack/rrc/libsrsgnb_rrc.a: srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/build.make
 srsgnb/src/stack/rrc/libsrsgnb_rrc.a: srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libsrsgnb_rrc.a"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && $(CMAKE_COMMAND) -P CMakeFiles/srsgnb_rrc.dir/cmake_clean_target.cmake
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/srsgnb_rrc.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libsrsgnb_rrc.a"
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && $(CMAKE_COMMAND) -P CMakeFiles/srsgnb_rrc.dir/cmake_clean_target.cmake
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/srsgnb_rrc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/build: srsgnb/src/stack/rrc/libsrsgnb_rrc.a
 .PHONY : srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/build
 
 srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/clean:
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && $(CMAKE_COMMAND) -P CMakeFiles/srsgnb_rrc.dir/cmake_clean.cmake
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc && $(CMAKE_COMMAND) -P CMakeFiles/srsgnb_rrc.dir/cmake_clean.cmake
 .PHONY : srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/clean
 
 srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/depend:
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsgnb/src/stack/rrc /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsgnb/src/stack/rrc /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/depend
 

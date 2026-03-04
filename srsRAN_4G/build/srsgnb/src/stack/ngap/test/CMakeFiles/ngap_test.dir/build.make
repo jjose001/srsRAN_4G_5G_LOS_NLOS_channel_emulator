@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G
+CMAKE_SOURCE_DIR = /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build
+CMAKE_BINARY_DIR = /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build
 
 # Include any dependencies generated for this target.
 include srsgnb/src/stack/ngap/test/CMakeFiles/ngap_test.dir/depend.make
@@ -70,18 +70,18 @@ include srsgnb/src/stack/ngap/test/CMakeFiles/ngap_test.dir/progress.make
 include srsgnb/src/stack/ngap/test/CMakeFiles/ngap_test.dir/flags.make
 
 srsgnb/src/stack/ngap/test/CMakeFiles/ngap_test.dir/ngap_test.cc.o: srsgnb/src/stack/ngap/test/CMakeFiles/ngap_test.dir/flags.make
-srsgnb/src/stack/ngap/test/CMakeFiles/ngap_test.dir/ngap_test.cc.o: /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsgnb/src/stack/ngap/test/ngap_test.cc
+srsgnb/src/stack/ngap/test/CMakeFiles/ngap_test.dir/ngap_test.cc.o: /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsgnb/src/stack/ngap/test/ngap_test.cc
 srsgnb/src/stack/ngap/test/CMakeFiles/ngap_test.dir/ngap_test.cc.o: srsgnb/src/stack/ngap/test/CMakeFiles/ngap_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsgnb/src/stack/ngap/test/CMakeFiles/ngap_test.dir/ngap_test.cc.o"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsgnb/src/stack/ngap/test && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT srsgnb/src/stack/ngap/test/CMakeFiles/ngap_test.dir/ngap_test.cc.o -MF CMakeFiles/ngap_test.dir/ngap_test.cc.o.d -o CMakeFiles/ngap_test.dir/ngap_test.cc.o -c /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsgnb/src/stack/ngap/test/ngap_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsgnb/src/stack/ngap/test/CMakeFiles/ngap_test.dir/ngap_test.cc.o"
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsgnb/src/stack/ngap/test && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT srsgnb/src/stack/ngap/test/CMakeFiles/ngap_test.dir/ngap_test.cc.o -MF CMakeFiles/ngap_test.dir/ngap_test.cc.o.d -o CMakeFiles/ngap_test.dir/ngap_test.cc.o -c /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsgnb/src/stack/ngap/test/ngap_test.cc
 
 srsgnb/src/stack/ngap/test/CMakeFiles/ngap_test.dir/ngap_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ngap_test.dir/ngap_test.cc.i"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsgnb/src/stack/ngap/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsgnb/src/stack/ngap/test/ngap_test.cc > CMakeFiles/ngap_test.dir/ngap_test.cc.i
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsgnb/src/stack/ngap/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsgnb/src/stack/ngap/test/ngap_test.cc > CMakeFiles/ngap_test.dir/ngap_test.cc.i
 
 srsgnb/src/stack/ngap/test/CMakeFiles/ngap_test.dir/ngap_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ngap_test.dir/ngap_test.cc.s"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsgnb/src/stack/ngap/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsgnb/src/stack/ngap/test/ngap_test.cc -o CMakeFiles/ngap_test.dir/ngap_test.cc.s
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsgnb/src/stack/ngap/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsgnb/src/stack/ngap/test/ngap_test.cc -o CMakeFiles/ngap_test.dir/ngap_test.cc.s
 
 # Object files for target ngap_test
 ngap_test_OBJECTS = \
@@ -108,21 +108,20 @@ srsgnb/src/stack/ngap/test/ngap_test: lib/src/support/libsupport.a
 srsgnb/src/stack/ngap/test/ngap_test: lib/src/srslog/libsrslog.a
 srsgnb/src/stack/ngap/test/ngap_test: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so
 srsgnb/src/stack/ngap/test/ngap_test: /usr/lib/x86_64-linux-gnu/libdw.so
-srsgnb/src/stack/ngap/test/ngap_test: /usr/lib/x86_64-linux-gnu/libsctp.so
 srsgnb/src/stack/ngap/test/ngap_test: lib/src/asn1/libsrsran_asn1.a
 srsgnb/src/stack/ngap/test/ngap_test: srsgnb/src/stack/ngap/test/CMakeFiles/ngap_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ngap_test"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsgnb/src/stack/ngap/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ngap_test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ngap_test"
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsgnb/src/stack/ngap/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ngap_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 srsgnb/src/stack/ngap/test/CMakeFiles/ngap_test.dir/build: srsgnb/src/stack/ngap/test/ngap_test
 .PHONY : srsgnb/src/stack/ngap/test/CMakeFiles/ngap_test.dir/build
 
 srsgnb/src/stack/ngap/test/CMakeFiles/ngap_test.dir/clean:
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsgnb/src/stack/ngap/test && $(CMAKE_COMMAND) -P CMakeFiles/ngap_test.dir/cmake_clean.cmake
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsgnb/src/stack/ngap/test && $(CMAKE_COMMAND) -P CMakeFiles/ngap_test.dir/cmake_clean.cmake
 .PHONY : srsgnb/src/stack/ngap/test/CMakeFiles/ngap_test.dir/clean
 
 srsgnb/src/stack/ngap/test/CMakeFiles/ngap_test.dir/depend:
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsgnb/src/stack/ngap/test /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsgnb/src/stack/ngap/test /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsgnb/src/stack/ngap/test/CMakeFiles/ngap_test.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsgnb/src/stack/ngap/test /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsgnb/src/stack/ngap/test /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsgnb/src/stack/ngap/test/CMakeFiles/ngap_test.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : srsgnb/src/stack/ngap/test/CMakeFiles/ngap_test.dir/depend
 

@@ -1,9 +1,9 @@
 lib/src/srslog/CMakeFiles/srslog.dir/formatters/json_formatter.cpp.o: \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/src/srslog/formatters/json_formatter.cpp \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/srslog/formatters/json_formatter.cpp \
  /usr/include/stdc-predef.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/src/srslog/formatters/json_formatter.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/srslog/formatter.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/srslog/bundled/fmt/format.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/srslog/formatters/json_formatter.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/srslog/formatter.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/srslog/bundled/fmt/format.h \
  /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -171,7 +171,7 @@ lib/src/srslog/CMakeFiles/srslog.dir/formatters/json_formatter.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
  /usr/include/c++/13/bits/charconv.h \
  /usr/include/c++/13/bits/basic_string.tcc \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/srslog/bundled/fmt/core.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/srslog/bundled/fmt/core.h \
  /usr/include/c++/13/array /usr/include/c++/13/compare \
  /usr/include/c++/13/cstring /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
@@ -192,13 +192,13 @@ lib/src/srslog/CMakeFiles/srslog.dir/formatters/json_formatter.cpp.o: \
  /usr/include/c++/13/bits/ranges_base.h \
  /usr/include/c++/13/experimental/bits/lfts_config.h \
  /usr/include/c++/13/experimental/bits/string_view.tcc \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/srslog/context.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/srslog/detail/support/tmp_utils.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/srslog/context.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/srslog/detail/support/tmp_utils.h \
  /usr/include/c++/13/cstddef /usr/include/c++/13/cassert \
  /usr/include/assert.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/srslog/detail/log_entry_metadata.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/srslog/bundled/fmt/printf.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/srslog/bundled/fmt/ostream.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/srslog/detail/log_entry_metadata.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/srslog/bundled/fmt/printf.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/srslog/bundled/fmt/ostream.h \
  /usr/include/c++/13/ostream /usr/include/c++/13/ios \
  /usr/include/c++/13/bits/basic_ios.h \
  /usr/include/c++/13/bits/locale_facets.h /usr/include/c++/13/cwctype \
@@ -208,7 +208,7 @@ lib/src/srslog/CMakeFiles/srslog.dir/formatters/json_formatter.cpp.o: \
  /usr/include/c++/13/bits/locale_facets.tcc \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/srslog/bundled/fmt/format.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/srslog/bundled/fmt/format.h \
  /usr/include/c++/13/chrono /usr/include/c++/13/bits/chrono.h \
  /usr/include/c++/13/ratio /usr/include/c++/13/ctime \
  /usr/include/c++/13/bits/parse_numbers.h

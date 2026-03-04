@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/src/mac/mac_rar_pdu_nr.cc" "lib/src/mac/CMakeFiles/srsran_mac.dir/mac_rar_pdu_nr.cc.o" "gcc" "lib/src/mac/CMakeFiles/srsran_mac.dir/mac_rar_pdu_nr.cc.o.d"
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/src/mac/mac_sch_pdu_nr.cc" "lib/src/mac/CMakeFiles/srsran_mac.dir/mac_sch_pdu_nr.cc.o" "gcc" "lib/src/mac/CMakeFiles/srsran_mac.dir/mac_sch_pdu_nr.cc.o.d"
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/src/mac/pdu.cc" "lib/src/mac/CMakeFiles/srsran_mac.dir/pdu.cc.o" "gcc" "lib/src/mac/CMakeFiles/srsran_mac.dir/pdu.cc.o.d"
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/src/mac/pdu_queue.cc" "lib/src/mac/CMakeFiles/srsran_mac.dir/pdu_queue.cc.o" "gcc" "lib/src/mac/CMakeFiles/srsran_mac.dir/pdu_queue.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/mac/mac_rar_pdu_nr.cc" "lib/src/mac/CMakeFiles/srsran_mac.dir/mac_rar_pdu_nr.cc.o" "gcc" "lib/src/mac/CMakeFiles/srsran_mac.dir/mac_rar_pdu_nr.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/mac/mac_sch_pdu_nr.cc" "lib/src/mac/CMakeFiles/srsran_mac.dir/mac_sch_pdu_nr.cc.o" "gcc" "lib/src/mac/CMakeFiles/srsran_mac.dir/mac_sch_pdu_nr.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/mac/pdu.cc" "lib/src/mac/CMakeFiles/srsran_mac.dir/pdu.cc.o" "gcc" "lib/src/mac/CMakeFiles/srsran_mac.dir/pdu.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/mac/pdu_queue.cc" "lib/src/mac/CMakeFiles/srsran_mac.dir/pdu_queue.cc.o" "gcc" "lib/src/mac/CMakeFiles/srsran_mac.dir/pdu_queue.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

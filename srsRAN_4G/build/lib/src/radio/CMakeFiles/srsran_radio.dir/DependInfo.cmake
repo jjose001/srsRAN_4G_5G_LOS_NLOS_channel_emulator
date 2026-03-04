@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/src/radio/channel_mapping.cc" "lib/src/radio/CMakeFiles/srsran_radio.dir/channel_mapping.cc.o" "gcc" "lib/src/radio/CMakeFiles/srsran_radio.dir/channel_mapping.cc.o.d"
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/src/radio/radio.cc" "lib/src/radio/CMakeFiles/srsran_radio.dir/radio.cc.o" "gcc" "lib/src/radio/CMakeFiles/srsran_radio.dir/radio.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/radio/channel_mapping.cc" "lib/src/radio/CMakeFiles/srsran_radio.dir/channel_mapping.cc.o" "gcc" "lib/src/radio/CMakeFiles/srsran_radio.dir/channel_mapping.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/radio/radio.cc" "lib/src/radio/CMakeFiles/srsran_radio.dir/radio.cc.o" "gcc" "lib/src/radio/CMakeFiles/srsran_radio.dir/radio.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

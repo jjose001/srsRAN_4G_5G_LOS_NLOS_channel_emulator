@@ -26,6 +26,7 @@
 #include "srsran/phy/common/timestamp.h"
 #include "srsran/phy/dft/dft.h"
 #include <inttypes.h>
+#include <stdbool.h>
 #include <stdint.h>
 
 #define SRSRAN_CHANNEL_FADING_MAXTAPS 24
@@ -39,12 +40,14 @@ typedef enum {
   srsran_channel_fading_model_tdla,
   srsran_channel_fading_model_tdlb,
   srsran_channel_fading_model_tdlc,
+  srsran_channel_fading_model_tdld, ///< TDL-D: LOS channel (3GPP TR 38.901, K1 = 13.3 dB)
+  srsran_channel_fading_model_tdle, ///< TDL-E: LOS channel (3GPP TR 38.901, K1 = 22.0 dB)
 } srsran_channel_fading_model_t;
 
 typedef struct {
   // Configuration parameters
   float                         srate;   // Sampling rate: 1.92e6, 3.84e6, ..., 23.04e6, 30.72e6
-  srsran_channel_fading_model_t model;   // None, EPA, EVA, ETU, TDL-A, TDL-B, TDL-C
+  srsran_channel_fading_model_t model;   // None, EPA, EVA, ETU, TDL-A/B/C/D/E
   float                         doppler; // Maximum doppler: 5, 70, 300
 
   // Internal tap parametrisation
@@ -56,6 +59,11 @@ typedef struct {
   float coeff_a[SRSRAN_CHANNEL_FADING_MAXTAPS][SRSRAN_CHANNEL_FADING_NTERMS];     // Random phase
   float coeff_b[SRSRAN_CHANNEL_FADING_MAXTAPS][SRSRAN_CHANNEL_FADING_NTERMS];     // Random phase
   cf_t* h_tap[SRSRAN_CHANNEL_FADING_MAXTAPS]; // Static tap signal in frequency domain
+
+  // LOS (Rice) state for TDL-D/E — tap 0 only
+  bool  is_los;   ///< True when model is TDL-D or TDL-E
+  float k_factor; ///< Rice K-factor (linear) for tap 0; K = 10^(K_dB/10)
+  float los_phi0; ///< Initial random phase φ₀ ~ U[0, 2π), drawn once at init
 
   // Utils
   srsran_dft_plan_t fft;             // DFT to frequency domain

@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/src/asn1/e2ap.cpp" "lib/src/asn1/CMakeFiles/ric_e2.dir/e2ap.cpp.o" "gcc" "lib/src/asn1/CMakeFiles/ric_e2.dir/e2ap.cpp.o.d"
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/src/asn1/e2sm.cpp" "lib/src/asn1/CMakeFiles/ric_e2.dir/e2sm.cpp.o" "gcc" "lib/src/asn1/CMakeFiles/ric_e2.dir/e2sm.cpp.o.d"
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/src/asn1/e2sm_kpm_v2.cpp" "lib/src/asn1/CMakeFiles/ric_e2.dir/e2sm_kpm_v2.cpp.o" "gcc" "lib/src/asn1/CMakeFiles/ric_e2.dir/e2sm_kpm_v2.cpp.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/asn1/e2ap.cpp" "lib/src/asn1/CMakeFiles/ric_e2.dir/e2ap.cpp.o" "gcc" "lib/src/asn1/CMakeFiles/ric_e2.dir/e2ap.cpp.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/asn1/e2sm.cpp" "lib/src/asn1/CMakeFiles/ric_e2.dir/e2sm.cpp.o" "gcc" "lib/src/asn1/CMakeFiles/ric_e2.dir/e2sm.cpp.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/asn1/e2sm_kpm_v2.cpp" "lib/src/asn1/CMakeFiles/ric_e2.dir/e2sm_kpm_v2.cpp.o" "gcc" "lib/src/asn1/CMakeFiles/ric_e2.dir/e2sm_kpm_v2.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G
+CMAKE_SOURCE_DIR = /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build
+CMAKE_BINARY_DIR = /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build
 
 # Include any dependencies generated for this target.
 include lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/depend.make
@@ -70,18 +70,18 @@ include lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/progress.
 include lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/flags.make
 
 lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.o: lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/flags.make
-lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.o: /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/src/phy/ue/test/ue_mib_sync_test_nbiot_usrp.c
+lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.o: /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/phy/ue/test/ue_mib_sync_test_nbiot_usrp.c
 lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.o: lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.o"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/lib/src/phy/ue/test && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.o -MF CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.o.d -o CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.o -c /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/src/phy/ue/test/ue_mib_sync_test_nbiot_usrp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.o"
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/src/phy/ue/test && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.o -MF CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.o.d -o CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.o -c /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/phy/ue/test/ue_mib_sync_test_nbiot_usrp.c
 
 lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.i"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/lib/src/phy/ue/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/src/phy/ue/test/ue_mib_sync_test_nbiot_usrp.c > CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.i
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/src/phy/ue/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/phy/ue/test/ue_mib_sync_test_nbiot_usrp.c > CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.i
 
 lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.s"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/lib/src/phy/ue/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/src/phy/ue/test/ue_mib_sync_test_nbiot_usrp.c -o CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.s
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/src/phy/ue/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/phy/ue/test/ue_mib_sync_test_nbiot_usrp.c -o CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.s
 
 # Object files for target ue_mib_sync_test_nbiot_usrp
 ue_mib_sync_test_nbiot_usrp_OBJECTS = \
@@ -98,18 +98,18 @@ lib/src/phy/ue/test/ue_mib_sync_test_nbiot_usrp: lib/src/phy/rf/libsrsran_rf_uti
 lib/src/phy/ue/test/ue_mib_sync_test_nbiot_usrp: lib/src/phy/libsrsran_phy.a
 lib/src/phy/ue/test/ue_mib_sync_test_nbiot_usrp: /usr/lib/x86_64-linux-gnu/libfftw3f.so
 lib/src/phy/ue/test/ue_mib_sync_test_nbiot_usrp: lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ue_mib_sync_test_nbiot_usrp"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/lib/src/phy/ue/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ue_mib_sync_test_nbiot_usrp"
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/src/phy/ue/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/build: lib/src/phy/ue/test/ue_mib_sync_test_nbiot_usrp
 .PHONY : lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/build
 
 lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/clean:
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/lib/src/phy/ue/test && $(CMAKE_COMMAND) -P CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/cmake_clean.cmake
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/src/phy/ue/test && $(CMAKE_COMMAND) -P CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/cmake_clean.cmake
 .PHONY : lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/clean
 
 lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/depend:
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/src/phy/ue/test /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/lib/src/phy/ue/test /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/phy/ue/test /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/src/phy/ue/test /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/depend
 

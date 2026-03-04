@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsenb/test/s1ap/s1ap_test.cc" "srsenb/test/s1ap/CMakeFiles/s1ap_test.dir/s1ap_test.cc.o" "gcc" "srsenb/test/s1ap/CMakeFiles/s1ap_test.dir/s1ap_test.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsenb/test/s1ap/s1ap_test.cc" "srsenb/test/s1ap/CMakeFiles/s1ap_test.dir/s1ap_test.cc.o" "gcc" "srsenb/test/s1ap/CMakeFiles/s1ap_test.dir/s1ap_test.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

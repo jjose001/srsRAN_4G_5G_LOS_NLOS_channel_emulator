@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsenb/src/enb.cc" "srsenb/src/CMakeFiles/srsenb.dir/enb.cc.o" "gcc" "srsenb/src/CMakeFiles/srsenb.dir/enb.cc.o.d"
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsenb/src/main.cc" "srsenb/src/CMakeFiles/srsenb.dir/main.cc.o" "gcc" "srsenb/src/CMakeFiles/srsenb.dir/main.cc.o.d"
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsenb/src/metrics_csv.cc" "srsenb/src/CMakeFiles/srsenb.dir/metrics_csv.cc.o" "gcc" "srsenb/src/CMakeFiles/srsenb.dir/metrics_csv.cc.o.d"
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsenb/src/metrics_e2.cc" "srsenb/src/CMakeFiles/srsenb.dir/metrics_e2.cc.o" "gcc" "srsenb/src/CMakeFiles/srsenb.dir/metrics_e2.cc.o.d"
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsenb/src/metrics_json.cc" "srsenb/src/CMakeFiles/srsenb.dir/metrics_json.cc.o" "gcc" "srsenb/src/CMakeFiles/srsenb.dir/metrics_json.cc.o.d"
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsenb/src/metrics_stdout.cc" "srsenb/src/CMakeFiles/srsenb.dir/metrics_stdout.cc.o" "gcc" "srsenb/src/CMakeFiles/srsenb.dir/metrics_stdout.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsenb/src/enb.cc" "srsenb/src/CMakeFiles/srsenb.dir/enb.cc.o" "gcc" "srsenb/src/CMakeFiles/srsenb.dir/enb.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsenb/src/main.cc" "srsenb/src/CMakeFiles/srsenb.dir/main.cc.o" "gcc" "srsenb/src/CMakeFiles/srsenb.dir/main.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsenb/src/metrics_csv.cc" "srsenb/src/CMakeFiles/srsenb.dir/metrics_csv.cc.o" "gcc" "srsenb/src/CMakeFiles/srsenb.dir/metrics_csv.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsenb/src/metrics_e2.cc" "srsenb/src/CMakeFiles/srsenb.dir/metrics_e2.cc.o" "gcc" "srsenb/src/CMakeFiles/srsenb.dir/metrics_e2.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsenb/src/metrics_json.cc" "srsenb/src/CMakeFiles/srsenb.dir/metrics_json.cc.o" "gcc" "srsenb/src/CMakeFiles/srsenb.dir/metrics_json.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsenb/src/metrics_stdout.cc" "srsenb/src/CMakeFiles/srsenb.dir/metrics_stdout.cc.o" "gcc" "srsenb/src/CMakeFiles/srsenb.dir/metrics_stdout.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

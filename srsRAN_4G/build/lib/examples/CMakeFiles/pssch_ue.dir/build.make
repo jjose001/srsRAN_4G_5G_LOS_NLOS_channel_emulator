@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G
+CMAKE_SOURCE_DIR = /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build
+CMAKE_BINARY_DIR = /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build
 
 # Include any dependencies generated for this target.
 include lib/examples/CMakeFiles/pssch_ue.dir/depend.make
@@ -70,18 +70,18 @@ include lib/examples/CMakeFiles/pssch_ue.dir/progress.make
 include lib/examples/CMakeFiles/pssch_ue.dir/flags.make
 
 lib/examples/CMakeFiles/pssch_ue.dir/pssch_ue.c.o: lib/examples/CMakeFiles/pssch_ue.dir/flags.make
-lib/examples/CMakeFiles/pssch_ue.dir/pssch_ue.c.o: /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/examples/pssch_ue.c
+lib/examples/CMakeFiles/pssch_ue.dir/pssch_ue.c.o: /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/examples/pssch_ue.c
 lib/examples/CMakeFiles/pssch_ue.dir/pssch_ue.c.o: lib/examples/CMakeFiles/pssch_ue.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/examples/CMakeFiles/pssch_ue.dir/pssch_ue.c.o"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/lib/examples && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/examples/CMakeFiles/pssch_ue.dir/pssch_ue.c.o -MF CMakeFiles/pssch_ue.dir/pssch_ue.c.o.d -o CMakeFiles/pssch_ue.dir/pssch_ue.c.o -c /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/examples/pssch_ue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/examples/CMakeFiles/pssch_ue.dir/pssch_ue.c.o"
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/examples && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/examples/CMakeFiles/pssch_ue.dir/pssch_ue.c.o -MF CMakeFiles/pssch_ue.dir/pssch_ue.c.o.d -o CMakeFiles/pssch_ue.dir/pssch_ue.c.o -c /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/examples/pssch_ue.c
 
 lib/examples/CMakeFiles/pssch_ue.dir/pssch_ue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pssch_ue.dir/pssch_ue.c.i"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/lib/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/examples/pssch_ue.c > CMakeFiles/pssch_ue.dir/pssch_ue.c.i
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/examples/pssch_ue.c > CMakeFiles/pssch_ue.dir/pssch_ue.c.i
 
 lib/examples/CMakeFiles/pssch_ue.dir/pssch_ue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pssch_ue.dir/pssch_ue.c.s"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/lib/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/examples/pssch_ue.c -o CMakeFiles/pssch_ue.dir/pssch_ue.c.s
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/examples/pssch_ue.c -o CMakeFiles/pssch_ue.dir/pssch_ue.c.s
 
 # Object files for target pssch_ue
 pssch_ue_OBJECTS = \
@@ -100,23 +100,22 @@ lib/examples/pssch_ue: lib/src/support/libsupport.a
 lib/examples/pssch_ue: lib/src/srslog/libsrslog.a
 lib/examples/pssch_ue: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so
 lib/examples/pssch_ue: /usr/lib/x86_64-linux-gnu/libdw.so
-lib/examples/pssch_ue: /usr/lib/x86_64-linux-gnu/libsctp.so
 lib/examples/pssch_ue: lib/src/phy/rf/libsrsran_rf_utils.a
 lib/examples/pssch_ue: lib/src/phy/libsrsran_phy.a
 lib/examples/pssch_ue: /usr/lib/x86_64-linux-gnu/libfftw3f.so
 lib/examples/pssch_ue: lib/examples/CMakeFiles/pssch_ue.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable pssch_ue"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/lib/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pssch_ue.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable pssch_ue"
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pssch_ue.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/examples/CMakeFiles/pssch_ue.dir/build: lib/examples/pssch_ue
 .PHONY : lib/examples/CMakeFiles/pssch_ue.dir/build
 
 lib/examples/CMakeFiles/pssch_ue.dir/clean:
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/lib/examples && $(CMAKE_COMMAND) -P CMakeFiles/pssch_ue.dir/cmake_clean.cmake
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/examples && $(CMAKE_COMMAND) -P CMakeFiles/pssch_ue.dir/cmake_clean.cmake
 .PHONY : lib/examples/CMakeFiles/pssch_ue.dir/clean
 
 lib/examples/CMakeFiles/pssch_ue.dir/depend:
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/examples /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/lib/examples /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/lib/examples/CMakeFiles/pssch_ue.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/examples /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/examples /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/examples/CMakeFiles/pssch_ue.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : lib/examples/CMakeFiles/pssch_ue.dir/depend
 

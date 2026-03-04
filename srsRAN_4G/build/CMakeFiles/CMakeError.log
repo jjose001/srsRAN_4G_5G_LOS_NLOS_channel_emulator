@@ -1,15 +1,15 @@
 Performing C SOURCE FILE Test HAVE_AVX512 failed with the following output:
-Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
+Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_98ab7/fast
-/usr/bin/gmake  -f CMakeFiles/cmTC_98ab7.dir/build.make CMakeFiles/cmTC_98ab7.dir/build
-gmake[1]: se entra en el directorio '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_98ab7.dir/src.c.o
-/usr/bin/cc   -DHAVE_AVX512 -mavx512f -mavx512cd -mavx512bw -mavx512dq -DLV_HAVE_AVX512 -o CMakeFiles/cmTC_98ab7.dir/src.c.o -c /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_98ab7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98ab7.dir/link.txt --verbose=1
-/usr/bin/cc  -DHAVE_AVX512 -mavx512f -mavx512cd -mavx512bw -mavx512dq -DLV_HAVE_AVX512 CMakeFiles/cmTC_98ab7.dir/src.c.o -o cmTC_98ab7 
-gmake[1]: se sale del directorio '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_37d16/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_37d16.dir/build.make CMakeFiles/cmTC_37d16.dir/build
+gmake[1]: se entra en el directorio '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_37d16.dir/src.c.o
+/usr/bin/cc   -DHAVE_AVX512 -mavx512f -mavx512cd -mavx512bw -mavx512dq -DLV_HAVE_AVX512 -o CMakeFiles/cmTC_37d16.dir/src.c.o -c /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_37d16
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37d16.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_AVX512 -mavx512f -mavx512cd -mavx512bw -mavx512dq -DLV_HAVE_AVX512 CMakeFiles/cmTC_37d16.dir/src.c.o -o cmTC_37d16 
+gmake[1]: se sale del directorio '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
 
 
 Return value: FAILED_TO_RUN

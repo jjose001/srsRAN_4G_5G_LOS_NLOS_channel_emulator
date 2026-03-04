@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsenb/src/stack/upper/gtpu.cc" "srsenb/src/stack/upper/CMakeFiles/srsenb_upper.dir/gtpu.cc.o" "gcc" "srsenb/src/stack/upper/CMakeFiles/srsenb_upper.dir/gtpu.cc.o.d"
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsenb/src/stack/upper/pdcp.cc" "srsenb/src/stack/upper/CMakeFiles/srsenb_upper.dir/pdcp.cc.o" "gcc" "srsenb/src/stack/upper/CMakeFiles/srsenb_upper.dir/pdcp.cc.o.d"
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsenb/src/stack/upper/rlc.cc" "srsenb/src/stack/upper/CMakeFiles/srsenb_upper.dir/rlc.cc.o" "gcc" "srsenb/src/stack/upper/CMakeFiles/srsenb_upper.dir/rlc.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsenb/src/stack/upper/gtpu.cc" "srsenb/src/stack/upper/CMakeFiles/srsenb_upper.dir/gtpu.cc.o" "gcc" "srsenb/src/stack/upper/CMakeFiles/srsenb_upper.dir/gtpu.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsenb/src/stack/upper/pdcp.cc" "srsenb/src/stack/upper/CMakeFiles/srsenb_upper.dir/pdcp.cc.o" "gcc" "srsenb/src/stack/upper/CMakeFiles/srsenb_upper.dir/pdcp.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsenb/src/stack/upper/rlc.cc" "srsenb/src/stack/upper/CMakeFiles/srsenb_upper.dir/rlc.cc.o" "gcc" "srsenb/src/stack/upper/CMakeFiles/srsenb_upper.dir/rlc.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

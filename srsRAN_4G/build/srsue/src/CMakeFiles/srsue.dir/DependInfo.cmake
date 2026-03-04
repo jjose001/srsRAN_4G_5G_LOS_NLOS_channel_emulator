@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsue/src/main.cc" "srsue/src/CMakeFiles/srsue.dir/main.cc.o" "gcc" "srsue/src/CMakeFiles/srsue.dir/main.cc.o.d"
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsue/src/metrics_csv.cc" "srsue/src/CMakeFiles/srsue.dir/metrics_csv.cc.o" "gcc" "srsue/src/CMakeFiles/srsue.dir/metrics_csv.cc.o.d"
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsue/src/metrics_json.cc" "srsue/src/CMakeFiles/srsue.dir/metrics_json.cc.o" "gcc" "srsue/src/CMakeFiles/srsue.dir/metrics_json.cc.o.d"
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsue/src/metrics_stdout.cc" "srsue/src/CMakeFiles/srsue.dir/metrics_stdout.cc.o" "gcc" "srsue/src/CMakeFiles/srsue.dir/metrics_stdout.cc.o.d"
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsue/src/ue.cc" "srsue/src/CMakeFiles/srsue.dir/ue.cc.o" "gcc" "srsue/src/CMakeFiles/srsue.dir/ue.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsue/src/main.cc" "srsue/src/CMakeFiles/srsue.dir/main.cc.o" "gcc" "srsue/src/CMakeFiles/srsue.dir/main.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsue/src/metrics_csv.cc" "srsue/src/CMakeFiles/srsue.dir/metrics_csv.cc.o" "gcc" "srsue/src/CMakeFiles/srsue.dir/metrics_csv.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsue/src/metrics_json.cc" "srsue/src/CMakeFiles/srsue.dir/metrics_json.cc.o" "gcc" "srsue/src/CMakeFiles/srsue.dir/metrics_json.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsue/src/metrics_stdout.cc" "srsue/src/CMakeFiles/srsue.dir/metrics_stdout.cc.o" "gcc" "srsue/src/CMakeFiles/srsue.dir/metrics_stdout.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsue/src/ue.cc" "srsue/src/CMakeFiles/srsue.dir/ue.cc.o" "gcc" "srsue/src/CMakeFiles/srsue.dir/ue.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

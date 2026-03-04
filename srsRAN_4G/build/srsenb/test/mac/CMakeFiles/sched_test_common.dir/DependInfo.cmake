@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsenb/test/mac/sched_common_test_suite.cc" "srsenb/test/mac/CMakeFiles/sched_test_common.dir/sched_common_test_suite.cc.o" "gcc" "srsenb/test/mac/CMakeFiles/sched_test_common.dir/sched_common_test_suite.cc.o.d"
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsenb/test/mac/sched_sim_ue.cc" "srsenb/test/mac/CMakeFiles/sched_test_common.dir/sched_sim_ue.cc.o" "gcc" "srsenb/test/mac/CMakeFiles/sched_test_common.dir/sched_sim_ue.cc.o.d"
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsenb/test/mac/sched_test_common.cc" "srsenb/test/mac/CMakeFiles/sched_test_common.dir/sched_test_common.cc.o" "gcc" "srsenb/test/mac/CMakeFiles/sched_test_common.dir/sched_test_common.cc.o.d"
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsenb/test/mac/sched_ue_ded_test_suite.cc" "srsenb/test/mac/CMakeFiles/sched_test_common.dir/sched_ue_ded_test_suite.cc.o" "gcc" "srsenb/test/mac/CMakeFiles/sched_test_common.dir/sched_ue_ded_test_suite.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsenb/test/mac/sched_common_test_suite.cc" "srsenb/test/mac/CMakeFiles/sched_test_common.dir/sched_common_test_suite.cc.o" "gcc" "srsenb/test/mac/CMakeFiles/sched_test_common.dir/sched_common_test_suite.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsenb/test/mac/sched_sim_ue.cc" "srsenb/test/mac/CMakeFiles/sched_test_common.dir/sched_sim_ue.cc.o" "gcc" "srsenb/test/mac/CMakeFiles/sched_test_common.dir/sched_sim_ue.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsenb/test/mac/sched_test_common.cc" "srsenb/test/mac/CMakeFiles/sched_test_common.dir/sched_test_common.cc.o" "gcc" "srsenb/test/mac/CMakeFiles/sched_test_common.dir/sched_test_common.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsenb/test/mac/sched_ue_ded_test_suite.cc" "srsenb/test/mac/CMakeFiles/sched_test_common.dir/sched_ue_ded_test_suite.cc.o" "gcc" "srsenb/test/mac/CMakeFiles/sched_test_common.dir/sched_ue_ded_test_suite.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

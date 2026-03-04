@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G
+CMAKE_SOURCE_DIR = /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build
+CMAKE_BINARY_DIR = /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build
 
 # Include any dependencies generated for this target.
 include test/phy/CMakeFiles/nr_phy_test.dir/depend.make
@@ -70,18 +70,18 @@ include test/phy/CMakeFiles/nr_phy_test.dir/progress.make
 include test/phy/CMakeFiles/nr_phy_test.dir/flags.make
 
 test/phy/CMakeFiles/nr_phy_test.dir/nr_phy_test.cc.o: test/phy/CMakeFiles/nr_phy_test.dir/flags.make
-test/phy/CMakeFiles/nr_phy_test.dir/nr_phy_test.cc.o: /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/test/phy/nr_phy_test.cc
+test/phy/CMakeFiles/nr_phy_test.dir/nr_phy_test.cc.o: /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/test/phy/nr_phy_test.cc
 test/phy/CMakeFiles/nr_phy_test.dir/nr_phy_test.cc.o: test/phy/CMakeFiles/nr_phy_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/phy/CMakeFiles/nr_phy_test.dir/nr_phy_test.cc.o"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/test/phy && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/phy/CMakeFiles/nr_phy_test.dir/nr_phy_test.cc.o -MF CMakeFiles/nr_phy_test.dir/nr_phy_test.cc.o.d -o CMakeFiles/nr_phy_test.dir/nr_phy_test.cc.o -c /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/test/phy/nr_phy_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/phy/CMakeFiles/nr_phy_test.dir/nr_phy_test.cc.o"
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/test/phy && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/phy/CMakeFiles/nr_phy_test.dir/nr_phy_test.cc.o -MF CMakeFiles/nr_phy_test.dir/nr_phy_test.cc.o.d -o CMakeFiles/nr_phy_test.dir/nr_phy_test.cc.o -c /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/test/phy/nr_phy_test.cc
 
 test/phy/CMakeFiles/nr_phy_test.dir/nr_phy_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nr_phy_test.dir/nr_phy_test.cc.i"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/test/phy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/test/phy/nr_phy_test.cc > CMakeFiles/nr_phy_test.dir/nr_phy_test.cc.i
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/test/phy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/test/phy/nr_phy_test.cc > CMakeFiles/nr_phy_test.dir/nr_phy_test.cc.i
 
 test/phy/CMakeFiles/nr_phy_test.dir/nr_phy_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nr_phy_test.dir/nr_phy_test.cc.s"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/test/phy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/test/phy/nr_phy_test.cc -o CMakeFiles/nr_phy_test.dir/nr_phy_test.cc.s
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/test/phy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/test/phy/nr_phy_test.cc -o CMakeFiles/nr_phy_test.dir/nr_phy_test.cc.s
 
 # Object files for target nr_phy_test
 nr_phy_test_OBJECTS = \
@@ -114,21 +114,20 @@ test/phy/nr_phy_test: lib/src/support/libsupport.a
 test/phy/nr_phy_test: lib/src/srslog/libsrslog.a
 test/phy/nr_phy_test: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so
 test/phy/nr_phy_test: /usr/lib/x86_64-linux-gnu/libdw.so
-test/phy/nr_phy_test: /usr/lib/x86_64-linux-gnu/libsctp.so
 test/phy/nr_phy_test: srsenb/src/stack/mac/common/libsrsenb_mac_common.a
 test/phy/nr_phy_test: test/phy/CMakeFiles/nr_phy_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable nr_phy_test"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/test/phy && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nr_phy_test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable nr_phy_test"
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/test/phy && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nr_phy_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/phy/CMakeFiles/nr_phy_test.dir/build: test/phy/nr_phy_test
 .PHONY : test/phy/CMakeFiles/nr_phy_test.dir/build
 
 test/phy/CMakeFiles/nr_phy_test.dir/clean:
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/test/phy && $(CMAKE_COMMAND) -P CMakeFiles/nr_phy_test.dir/cmake_clean.cmake
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/test/phy && $(CMAKE_COMMAND) -P CMakeFiles/nr_phy_test.dir/cmake_clean.cmake
 .PHONY : test/phy/CMakeFiles/nr_phy_test.dir/clean
 
 test/phy/CMakeFiles/nr_phy_test.dir/depend:
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/test/phy /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/test/phy /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/test/phy/CMakeFiles/nr_phy_test.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/test/phy /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/test/phy /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/test/phy/CMakeFiles/nr_phy_test.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : test/phy/CMakeFiles/nr_phy_test.dir/depend
 

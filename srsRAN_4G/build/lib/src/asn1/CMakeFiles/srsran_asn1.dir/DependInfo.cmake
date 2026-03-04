@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/src/asn1/gtpc.cc" "lib/src/asn1/CMakeFiles/srsran_asn1.dir/gtpc.cc.o" "gcc" "lib/src/asn1/CMakeFiles/srsran_asn1.dir/gtpc.cc.o.d"
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/src/asn1/liblte_common.cc" "lib/src/asn1/CMakeFiles/srsran_asn1.dir/liblte_common.cc.o" "gcc" "lib/src/asn1/CMakeFiles/srsran_asn1.dir/liblte_common.cc.o.d"
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/src/asn1/liblte_mme.cc" "lib/src/asn1/CMakeFiles/srsran_asn1.dir/liblte_mme.cc.o" "gcc" "lib/src/asn1/CMakeFiles/srsran_asn1.dir/liblte_mme.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/asn1/gtpc.cc" "lib/src/asn1/CMakeFiles/srsran_asn1.dir/gtpc.cc.o" "gcc" "lib/src/asn1/CMakeFiles/srsran_asn1.dir/gtpc.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/asn1/liblte_common.cc" "lib/src/asn1/CMakeFiles/srsran_asn1.dir/liblte_common.cc.o" "gcc" "lib/src/asn1/CMakeFiles/srsran_asn1.dir/liblte_common.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/asn1/liblte_mme.cc" "lib/src/asn1/CMakeFiles/srsran_asn1.dir/liblte_mme.cc.o" "gcc" "lib/src/asn1/CMakeFiles/srsran_asn1.dir/liblte_mme.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsenb/src/enb_cfg_parser.cc" "srsenb/src/CMakeFiles/enb_cfg_parser.dir/enb_cfg_parser.cc.o" "gcc" "srsenb/src/CMakeFiles/enb_cfg_parser.dir/enb_cfg_parser.cc.o.d"
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsenb/src/parser.cc" "srsenb/src/CMakeFiles/enb_cfg_parser.dir/parser.cc.o" "gcc" "srsenb/src/CMakeFiles/enb_cfg_parser.dir/parser.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsenb/src/enb_cfg_parser.cc" "srsenb/src/CMakeFiles/enb_cfg_parser.dir/enb_cfg_parser.cc.o" "gcc" "srsenb/src/CMakeFiles/enb_cfg_parser.dir/enb_cfg_parser.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsenb/src/parser.cc" "srsenb/src/CMakeFiles/enb_cfg_parser.dir/parser.cc.o" "gcc" "srsenb/src/CMakeFiles/enb_cfg_parser.dir/parser.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

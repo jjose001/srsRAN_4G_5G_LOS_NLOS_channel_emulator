@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G
+CMAKE_SOURCE_DIR = /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build
+CMAKE_BINARY_DIR = /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build
 
 # Include any dependencies generated for this target.
 include srsue/src/stack/mac_nr/test/CMakeFiles/mac_nr_test.dir/depend.make
@@ -70,18 +70,18 @@ include srsue/src/stack/mac_nr/test/CMakeFiles/mac_nr_test.dir/progress.make
 include srsue/src/stack/mac_nr/test/CMakeFiles/mac_nr_test.dir/flags.make
 
 srsue/src/stack/mac_nr/test/CMakeFiles/mac_nr_test.dir/mac_nr_test.cc.o: srsue/src/stack/mac_nr/test/CMakeFiles/mac_nr_test.dir/flags.make
-srsue/src/stack/mac_nr/test/CMakeFiles/mac_nr_test.dir/mac_nr_test.cc.o: /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsue/src/stack/mac_nr/test/mac_nr_test.cc
+srsue/src/stack/mac_nr/test/CMakeFiles/mac_nr_test.dir/mac_nr_test.cc.o: /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsue/src/stack/mac_nr/test/mac_nr_test.cc
 srsue/src/stack/mac_nr/test/CMakeFiles/mac_nr_test.dir/mac_nr_test.cc.o: srsue/src/stack/mac_nr/test/CMakeFiles/mac_nr_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsue/src/stack/mac_nr/test/CMakeFiles/mac_nr_test.dir/mac_nr_test.cc.o"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsue/src/stack/mac_nr/test && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT srsue/src/stack/mac_nr/test/CMakeFiles/mac_nr_test.dir/mac_nr_test.cc.o -MF CMakeFiles/mac_nr_test.dir/mac_nr_test.cc.o.d -o CMakeFiles/mac_nr_test.dir/mac_nr_test.cc.o -c /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsue/src/stack/mac_nr/test/mac_nr_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsue/src/stack/mac_nr/test/CMakeFiles/mac_nr_test.dir/mac_nr_test.cc.o"
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsue/src/stack/mac_nr/test && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT srsue/src/stack/mac_nr/test/CMakeFiles/mac_nr_test.dir/mac_nr_test.cc.o -MF CMakeFiles/mac_nr_test.dir/mac_nr_test.cc.o.d -o CMakeFiles/mac_nr_test.dir/mac_nr_test.cc.o -c /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsue/src/stack/mac_nr/test/mac_nr_test.cc
 
 srsue/src/stack/mac_nr/test/CMakeFiles/mac_nr_test.dir/mac_nr_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mac_nr_test.dir/mac_nr_test.cc.i"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsue/src/stack/mac_nr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsue/src/stack/mac_nr/test/mac_nr_test.cc > CMakeFiles/mac_nr_test.dir/mac_nr_test.cc.i
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsue/src/stack/mac_nr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsue/src/stack/mac_nr/test/mac_nr_test.cc > CMakeFiles/mac_nr_test.dir/mac_nr_test.cc.i
 
 srsue/src/stack/mac_nr/test/CMakeFiles/mac_nr_test.dir/mac_nr_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mac_nr_test.dir/mac_nr_test.cc.s"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsue/src/stack/mac_nr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsue/src/stack/mac_nr/test/mac_nr_test.cc -o CMakeFiles/mac_nr_test.dir/mac_nr_test.cc.s
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsue/src/stack/mac_nr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsue/src/stack/mac_nr/test/mac_nr_test.cc -o CMakeFiles/mac_nr_test.dir/mac_nr_test.cc.s
 
 # Object files for target mac_nr_test
 mac_nr_test_OBJECTS = \
@@ -103,20 +103,19 @@ srsue/src/stack/mac_nr/test/mac_nr_test: lib/src/support/libsupport.a
 srsue/src/stack/mac_nr/test/mac_nr_test: lib/src/srslog/libsrslog.a
 srsue/src/stack/mac_nr/test/mac_nr_test: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so
 srsue/src/stack/mac_nr/test/mac_nr_test: /usr/lib/x86_64-linux-gnu/libdw.so
-srsue/src/stack/mac_nr/test/mac_nr_test: /usr/lib/x86_64-linux-gnu/libsctp.so
 srsue/src/stack/mac_nr/test/mac_nr_test: srsue/src/stack/mac_nr/test/CMakeFiles/mac_nr_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mac_nr_test"
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsue/src/stack/mac_nr/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mac_nr_test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mac_nr_test"
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsue/src/stack/mac_nr/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mac_nr_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 srsue/src/stack/mac_nr/test/CMakeFiles/mac_nr_test.dir/build: srsue/src/stack/mac_nr/test/mac_nr_test
 .PHONY : srsue/src/stack/mac_nr/test/CMakeFiles/mac_nr_test.dir/build
 
 srsue/src/stack/mac_nr/test/CMakeFiles/mac_nr_test.dir/clean:
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsue/src/stack/mac_nr/test && $(CMAKE_COMMAND) -P CMakeFiles/mac_nr_test.dir/cmake_clean.cmake
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsue/src/stack/mac_nr/test && $(CMAKE_COMMAND) -P CMakeFiles/mac_nr_test.dir/cmake_clean.cmake
 .PHONY : srsue/src/stack/mac_nr/test/CMakeFiles/mac_nr_test.dir/clean
 
 srsue/src/stack/mac_nr/test/CMakeFiles/mac_nr_test.dir/depend:
-	cd /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsue/src/stack/mac_nr/test /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsue/src/stack/mac_nr/test /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/srsue/src/stack/mac_nr/test/CMakeFiles/mac_nr_test.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsue/src/stack/mac_nr/test /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsue/src/stack/mac_nr/test /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsue/src/stack/mac_nr/test/CMakeFiles/mac_nr_test.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : srsue/src/stack/mac_nr/test/CMakeFiles/mac_nr_test.dir/depend
 

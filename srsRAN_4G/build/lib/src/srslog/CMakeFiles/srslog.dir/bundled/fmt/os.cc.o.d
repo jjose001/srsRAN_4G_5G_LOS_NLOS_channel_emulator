@@ -1,7 +1,7 @@
 lib/src/srslog/CMakeFiles/srslog.dir/bundled/fmt/os.cc.o: \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/src/srslog/bundled/fmt/os.cc \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/srslog/bundled/fmt/os.cc \
  /usr/include/stdc-predef.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/srslog/bundled/fmt/os.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/srslog/bundled/fmt/os.h \
  /usr/include/c++/13/cerrno \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -72,7 +72,7 @@ lib/src/srslog/CMakeFiles/srslog.dir/bundled/fmt/os.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
  /usr/include/c++/13/bits/std_abs.h \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/srslog/bundled/fmt/format.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/srslog/bundled/fmt/format.h \
  /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algobase.h \
  /usr/include/c++/13/bits/functexcept.h \
  /usr/include/c++/13/bits/exception_defines.h \
@@ -173,7 +173,7 @@ lib/src/srslog/CMakeFiles/srslog.dir/bundled/fmt/os.cc.o: \
  /usr/include/c++/13/ext/string_conversions.h \
  /usr/include/c++/13/bits/charconv.h \
  /usr/include/c++/13/bits/basic_string.tcc \
- /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/include/srsran/srslog/bundled/fmt/core.h \
+ /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/include/srsran/srslog/bundled/fmt/core.h \
  /usr/include/c++/13/array /usr/include/c++/13/compare \
  /usr/include/c++/13/cstring /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/examples/usrp_txrx.c" "lib/examples/CMakeFiles/usrp_txrx.dir/usrp_txrx.c.o" "gcc" "lib/examples/CMakeFiles/usrp_txrx.dir/usrp_txrx.c.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/examples/usrp_txrx.c" "lib/examples/CMakeFiles/usrp_txrx.dir/usrp_txrx.c.o" "gcc" "lib/examples/CMakeFiles/usrp_txrx.dir/usrp_txrx.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

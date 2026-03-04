@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsenb/src/cbs_encoding/cbs_encoder.cpp" "srsenb/src/CMakeFiles/srsenb_cbs_encoding.dir/cbs_encoding/cbs_encoder.cpp.o" "gcc" "srsenb/src/CMakeFiles/srsenb_cbs_encoding.dir/cbs_encoding/cbs_encoder.cpp.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsenb/src/cbs_encoding/cbs_encoder.cpp" "srsenb/src/CMakeFiles/srsenb_cbs_encoding.dir/cbs_encoding/cbs_encoder.cpp.o" "gcc" "srsenb/src/CMakeFiles/srsenb_cbs_encoding.dir/cbs_encoding/cbs_encoder.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

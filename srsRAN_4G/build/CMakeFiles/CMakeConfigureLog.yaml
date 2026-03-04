@@ -7,7 +7,7 @@ events:
       - "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
       - "CMakeLists.txt:34 (project)"
     message: |
-      The system is: Linux - 6.11.0-26-generic - x86_64
+      The system is: Linux - 6.17.0-14-generic - x86_64
   -
     kind: "message-v1"
     backtrace:
@@ -28,7 +28,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/3.28.3/CompilerIdC/a.out
+        /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/3.28.3/CompilerIdC/a.out
       
   -
     kind: "message-v1"
@@ -50,7 +50,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/3.28.3/CompilerIdCXX/a.out
+        /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/3.28.3/CompilerIdCXX/a.out
       
   -
     kind: "try_compile-v1"
@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-xxscL5"
-      binary: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-xxscL5"
+      source: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-mBRc4f"
+      binary: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-mBRc4f"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -70,25 +70,25 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-xxscL5'
+        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-mBRc4f'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0c16e/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_0c16e.dir/build.make CMakeFiles/cmTC_0c16e.dir/build
-        gmake[1]: Entering directory '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-xxscL5'
-        Building C object CMakeFiles/cmTC_0c16e.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_0c16e.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4a7c3/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4a7c3.dir/build.make CMakeFiles/cmTC_4a7c3.dir/build
+        gmake[1]: Entering directory '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-mBRc4f'
+        Building C object CMakeFiles/cmTC_4a7c3.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_4a7c3.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
         OFFLOAD_TARGET_DEFAULT=1
         Target: x86_64-linux-gnu
-        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04.1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
-        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0c16e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0c16e.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_0c16e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccfhmQ3z.s
-        GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4a7c3.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4a7c3.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_4a7c3.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccQZIWvQ.s
+        GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04.1) version 13.3.0 (x86_64-linux-gnu)
         	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -103,32 +103,32 @@ events:
          /usr/include/x86_64-linux-gnu
          /usr/include
         End of search list.
-        Compiler executable checksum: 38987c28e967c64056a6454abdef726e
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0c16e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0c16e.dir/'
-         as -v --64 -o CMakeFiles/cmTC_0c16e.dir/CMakeCCompilerABI.c.o /tmp/ccfhmQ3z.s
+        Compiler executable checksum: b220a7f1a1f69970d969d254ad9ec166
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4a7c3.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4a7c3.dir/'
+         as -v --64 -o CMakeFiles/cmTC_4a7c3.dir/CMakeCCompilerABI.c.o /tmp/ccQZIWvQ.s
         GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0c16e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0c16e.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_0c16e
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c16e.dir/link.txt --verbose=1
-        /usr/bin/cc  -v CMakeFiles/cmTC_0c16e.dir/CMakeCCompilerABI.c.o -o cmTC_0c16e 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4a7c3.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4a7c3.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_4a7c3
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a7c3.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_4a7c3.dir/CMakeCCompilerABI.c.o -o cmTC_4a7c3 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
         OFFLOAD_TARGET_DEFAULT=1
         Target: x86_64-linux-gnu
-        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04.1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
-        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0c16e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0c16e.'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVjGMy5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0c16e /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_0c16e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0c16e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0c16e.'
-        gmake[1]: Leaving directory '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-xxscL5'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4a7c3' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4a7c3.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqoavmJ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4a7c3 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_4a7c3.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4a7c3' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4a7c3.'
+        gmake[1]: Leaving directory '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-mBRc4f'
         
       exitCode: 0
   -
@@ -162,25 +162,25 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-xxscL5']
+        ignore line: [Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-mBRc4f']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0c16e/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_0c16e.dir/build.make CMakeFiles/cmTC_0c16e.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-xxscL5']
-        ignore line: [Building C object CMakeFiles/cmTC_0c16e.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_0c16e.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4a7c3/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_4a7c3.dir/build.make CMakeFiles/cmTC_4a7c3.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-mBRc4f']
+        ignore line: [Building C object CMakeFiles/cmTC_4a7c3.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_4a7c3.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
         ignore line: [OFFLOAD_TARGET_DEFAULT=1]
         ignore line: [Target: x86_64-linux-gnu]
-        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04.1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
-        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0c16e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0c16e.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_0c16e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccfhmQ3z.s]
-        ignore line: [GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4a7c3.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4a7c3.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_4a7c3.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccQZIWvQ.s]
+        ignore line: [GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04.1) version 13.3.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -195,35 +195,35 @@ events:
         ignore line: [ /usr/include/x86_64-linux-gnu]
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [Compiler executable checksum: 38987c28e967c64056a6454abdef726e]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0c16e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0c16e.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_0c16e.dir/CMakeCCompilerABI.c.o /tmp/ccfhmQ3z.s]
+        ignore line: [Compiler executable checksum: b220a7f1a1f69970d969d254ad9ec166]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4a7c3.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4a7c3.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_4a7c3.dir/CMakeCCompilerABI.c.o /tmp/ccQZIWvQ.s]
         ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0c16e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0c16e.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_0c16e]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c16e.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_0c16e.dir/CMakeCCompilerABI.c.o -o cmTC_0c16e ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4a7c3.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4a7c3.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_4a7c3]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a7c3.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_4a7c3.dir/CMakeCCompilerABI.c.o -o cmTC_4a7c3 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
         ignore line: [OFFLOAD_TARGET_DEFAULT=1]
         ignore line: [Target: x86_64-linux-gnu]
-        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04.1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
-        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0c16e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0c16e.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVjGMy5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0c16e /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_0c16e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4a7c3' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4a7c3.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqoavmJ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4a7c3 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_4a7c3.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccVjGMy5.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccqoavmJ.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -241,7 +241,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_0c16e] ==> ignore
+          arg [cmTC_4a7c3] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
@@ -253,7 +253,7 @@ events:
           arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
-          arg [CMakeFiles/cmTC_0c16e.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_4a7c3.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -293,8 +293,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-XFSpgC"
-      binary: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-XFSpgC"
+      source: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-D91GvZ"
+      binary: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-D91GvZ"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -302,25 +302,25 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-XFSpgC'
+        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-D91GvZ'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_80801/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_80801.dir/build.make CMakeFiles/cmTC_80801.dir/build
-        gmake[1]: Entering directory '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-XFSpgC'
-        Building CXX object CMakeFiles/cmTC_80801.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_80801.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_40309/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_40309.dir/build.make CMakeFiles/cmTC_40309.dir/build
+        gmake[1]: Entering directory '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-D91GvZ'
+        Building CXX object CMakeFiles/cmTC_40309.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_40309.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
         OFFLOAD_TARGET_DEFAULT=1
         Target: x86_64-linux-gnu
-        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04.1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
-        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_80801.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_80801.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_80801.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccOSYq0J.s
-        GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_40309.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_40309.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_40309.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc6cTeqm.s
+        GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04.1) version 13.3.0 (x86_64-linux-gnu)
         	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -339,32 +339,32 @@ events:
          /usr/include/x86_64-linux-gnu
          /usr/include
         End of search list.
-        Compiler executable checksum: c81c05345ce537099dafd5580045814a
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_80801.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_80801.dir/'
-         as -v --64 -o CMakeFiles/cmTC_80801.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccOSYq0J.s
+        Compiler executable checksum: 7896445e4990772fdae9dc0659a99266
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_40309.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_40309.dir/'
+         as -v --64 -o CMakeFiles/cmTC_40309.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc6cTeqm.s
         GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_80801.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_80801.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_80801
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80801.dir/link.txt --verbose=1
-        /usr/bin/c++  -v CMakeFiles/cmTC_80801.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_80801 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_40309.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_40309.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_40309
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40309.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_40309.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_40309 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
         OFFLOAD_TARGET_DEFAULT=1
         Target: x86_64-linux-gnu
-        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04.1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
-        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_80801' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_80801.'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7tuhsx.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_80801 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_80801.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_80801' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_80801.'
-        gmake[1]: Leaving directory '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-XFSpgC'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_40309' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_40309.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKFBZ2P.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_40309 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_40309.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_40309' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_40309.'
+        gmake[1]: Leaving directory '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-D91GvZ'
         
       exitCode: 0
   -
@@ -404,25 +404,25 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-XFSpgC']
+        ignore line: [Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-D91GvZ']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_80801/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_80801.dir/build.make CMakeFiles/cmTC_80801.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-XFSpgC']
-        ignore line: [Building CXX object CMakeFiles/cmTC_80801.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_80801.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_40309/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_40309.dir/build.make CMakeFiles/cmTC_40309.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-D91GvZ']
+        ignore line: [Building CXX object CMakeFiles/cmTC_40309.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_40309.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
         ignore line: [OFFLOAD_TARGET_DEFAULT=1]
         ignore line: [Target: x86_64-linux-gnu]
-        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04.1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
-        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_80801.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_80801.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_80801.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccOSYq0J.s]
-        ignore line: [GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_40309.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_40309.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_40309.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc6cTeqm.s]
+        ignore line: [GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04.1) version 13.3.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -441,35 +441,35 @@ events:
         ignore line: [ /usr/include/x86_64-linux-gnu]
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [Compiler executable checksum: c81c05345ce537099dafd5580045814a]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_80801.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_80801.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_80801.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccOSYq0J.s]
+        ignore line: [Compiler executable checksum: 7896445e4990772fdae9dc0659a99266]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_40309.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_40309.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_40309.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc6cTeqm.s]
         ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_80801.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_80801.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_80801]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80801.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_80801.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_80801 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_40309.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_40309.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_40309]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40309.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_40309.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_40309 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
         ignore line: [OFFLOAD_TARGET_DEFAULT=1]
         ignore line: [Target: x86_64-linux-gnu]
-        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04.1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
-        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_80801' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_80801.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7tuhsx.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_80801 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_80801.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_40309' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_40309.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKFBZ2P.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_40309 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_40309.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cc7tuhsx.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccKFBZ2P.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -487,7 +487,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_80801] ==> ignore
+          arg [cmTC_40309] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
@@ -499,7 +499,7 @@ events:
           arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
-          arg [CMakeFiles/cmTC_80801.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_40309.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -537,27 +537,27 @@ events:
     checks:
       - "Performing Test HAVE_CXX_ATOMICS_WITHOUT_LIB"
     directories:
-      source: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-TBAddx"
-      binary: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-TBAddx"
+      source: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-uXiqMS"
+      binary: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-uXiqMS"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/cmake/modules"
+      CMAKE_MODULE_PATH: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/cmake/modules"
     buildResult:
       variable: "HAVE_CXX_ATOMICS_WITHOUT_LIB"
       cached: true
       stdout: |
-        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-TBAddx'
+        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-uXiqMS'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_587a7/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_587a7.dir/build.make CMakeFiles/cmTC_587a7.dir/build
-        gmake[1]: se entra en el directorio '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-TBAddx'
-        Building CXX object CMakeFiles/cmTC_587a7.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_ATOMICS_WITHOUT_LIB  -std=c++11 -o CMakeFiles/cmTC_587a7.dir/src.cxx.o -c /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-TBAddx/src.cxx
-        Linking CXX executable cmTC_587a7
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_587a7.dir/link.txt --verbose=1
-        /usr/bin/c++   -std=c++11 CMakeFiles/cmTC_587a7.dir/src.cxx.o -o cmTC_587a7 
-        gmake[1]: se sale del directorio '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-TBAddx'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_98bc4/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_98bc4.dir/build.make CMakeFiles/cmTC_98bc4.dir/build
+        gmake[1]: se entra en el directorio '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-uXiqMS'
+        Building CXX object CMakeFiles/cmTC_98bc4.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_ATOMICS_WITHOUT_LIB  -std=c++11 -o CMakeFiles/cmTC_98bc4.dir/src.cxx.o -c /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-uXiqMS/src.cxx
+        Linking CXX executable cmTC_98bc4
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98bc4.dir/link.txt --verbose=1
+        /usr/bin/c++   -std=c++11 CMakeFiles/cmTC_98bc4.dir/src.cxx.o -o cmTC_98bc4 
+        gmake[1]: se sale del directorio '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-uXiqMS'
         
       exitCode: 0
   -
@@ -571,27 +571,27 @@ events:
     checks:
       - "Performing Test HAVE_CXX_ATOMICS64_WITHOUT_LIB"
     directories:
-      source: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-tR24TY"
-      binary: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-tR24TY"
+      source: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-pfmbxH"
+      binary: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-pfmbxH"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/cmake/modules"
+      CMAKE_MODULE_PATH: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/cmake/modules"
     buildResult:
       variable: "HAVE_CXX_ATOMICS64_WITHOUT_LIB"
       cached: true
       stdout: |
-        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-tR24TY'
+        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-pfmbxH'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_628e7/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_628e7.dir/build.make CMakeFiles/cmTC_628e7.dir/build
-        gmake[1]: se entra en el directorio '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-tR24TY'
-        Building CXX object CMakeFiles/cmTC_628e7.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_ATOMICS64_WITHOUT_LIB  -std=c++11 -o CMakeFiles/cmTC_628e7.dir/src.cxx.o -c /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-tR24TY/src.cxx
-        Linking CXX executable cmTC_628e7
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_628e7.dir/link.txt --verbose=1
-        /usr/bin/c++  -std=c++11 CMakeFiles/cmTC_628e7.dir/src.cxx.o -o cmTC_628e7 
-        gmake[1]: se sale del directorio '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-tR24TY'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fdbf2/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_fdbf2.dir/build.make CMakeFiles/cmTC_fdbf2.dir/build
+        gmake[1]: se entra en el directorio '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-pfmbxH'
+        Building CXX object CMakeFiles/cmTC_fdbf2.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_ATOMICS64_WITHOUT_LIB  -std=c++11 -o CMakeFiles/cmTC_fdbf2.dir/src.cxx.o -c /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-pfmbxH/src.cxx
+        Linking CXX executable cmTC_fdbf2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fdbf2.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=c++11 CMakeFiles/cmTC_fdbf2.dir/src.cxx.o -o cmTC_fdbf2 
+        gmake[1]: se sale del directorio '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-pfmbxH'
         
       exitCode: 0
   -
@@ -605,27 +605,27 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-VHSPvu"
-      binary: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-VHSPvu"
+      source: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-X86cSq"
+      binary: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-X86cSq"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/cmake/modules"
+      CMAKE_MODULE_PATH: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/cmake/modules"
     buildResult:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-VHSPvu'
+        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-X86cSq'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_dd8d8/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_dd8d8.dir/build.make CMakeFiles/cmTC_dd8d8.dir/build
-        gmake[1]: se entra en el directorio '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-VHSPvu'
-        Building C object CMakeFiles/cmTC_dd8d8.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_dd8d8.dir/src.c.o -c /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-VHSPvu/src.c
-        Linking C executable cmTC_dd8d8
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd8d8.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_dd8d8.dir/src.c.o -o cmTC_dd8d8 
-        gmake[1]: se sale del directorio '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-VHSPvu'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ea1df/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ea1df.dir/build.make CMakeFiles/cmTC_ea1df.dir/build
+        gmake[1]: se entra en el directorio '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-X86cSq'
+        Building C object CMakeFiles/cmTC_ea1df.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_ea1df.dir/src.c.o -c /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-X86cSq/src.c
+        Linking C executable cmTC_ea1df
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea1df.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_ea1df.dir/src.c.o -o cmTC_ea1df 
+        gmake[1]: se sale del directorio '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-X86cSq'
         
       exitCode: 0
   -
@@ -638,32 +638,32 @@ events:
     checks:
       - "Performing Test UHD_ENABLE_X300_FW_RESET"
     directories:
-      source: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-2AX7ZW"
-      binary: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-2AX7ZW"
+      source: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-SpnXJf"
+      binary: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-SpnXJf"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/cmake/modules"
+      CMAKE_MODULE_PATH: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/cmake/modules"
     buildResult:
       variable: "UHD_ENABLE_X300_FW_RESET"
       cached: true
       stdout: |
-        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-2AX7ZW'
+        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-SpnXJf'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_82ddb/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_82ddb.dir/build.make CMakeFiles/cmTC_82ddb.dir/build
-        gmake[1]: se entra en el directorio '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-2AX7ZW'
-        Building CXX object CMakeFiles/cmTC_82ddb.dir/src.cxx.o
-        /usr/bin/c++ -DUHD_ENABLE_X300_FW_RESET  -L/usr/lib/x86_64-linux-gnu -o CMakeFiles/cmTC_82ddb.dir/src.cxx.o -c /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-2AX7ZW/src.cxx
-        Linking CXX executable cmTC_82ddb
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82ddb.dir/link.txt --verbose=1
-        /usr/bin/c++   -L/usr/lib/x86_64-linux-gnu CMakeFiles/cmTC_82ddb.dir/src.cxx.o -o cmTC_82ddb  -luhd -lboost_program_options -lboost_system 
-        /usr/bin/ld: CMakeFiles/cmTC_82ddb.dir/src.cxx.o: en la función `try_usrp_x300_reset()':
-        src.cxx:(.text+0xe3): undefined reference to `x300_make_ctrl_iface_enet(std::shared_ptr<uhd::transport::udp_simple>, bool)'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_900b3/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_900b3.dir/build.make CMakeFiles/cmTC_900b3.dir/build
+        gmake[1]: se entra en el directorio '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-SpnXJf'
+        Building CXX object CMakeFiles/cmTC_900b3.dir/src.cxx.o
+        /usr/bin/c++ -DUHD_ENABLE_X300_FW_RESET  -L/usr/lib/x86_64-linux-gnu -o CMakeFiles/cmTC_900b3.dir/src.cxx.o -c /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-SpnXJf/src.cxx
+        Linking CXX executable cmTC_900b3
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_900b3.dir/link.txt --verbose=1
+        /usr/bin/c++   -L/usr/lib/x86_64-linux-gnu CMakeFiles/cmTC_900b3.dir/src.cxx.o -o cmTC_900b3  -luhd -lboost_program_options -lboost_system 
+        /usr/bin/ld: CMakeFiles/cmTC_900b3.dir/src.cxx.o: en la función `try_usrp_x300_reset()':
+        src.cxx:(.text+0xe3): referencia a `x300_make_ctrl_iface_enet(std::shared_ptr<uhd::transport::udp_simple>, bool)' sin definir
         collect2: error: ld returned 1 exit status
-        gmake[1]: *** [CMakeFiles/cmTC_82ddb.dir/build.make:99: cmTC_82ddb] Error 1
-        gmake[1]: se sale del directorio '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-2AX7ZW'
-        gmake: *** [Makefile:127: cmTC_82ddb/fast] Error 2
+        gmake[1]: *** [CMakeFiles/cmTC_900b3.dir/build.make:99: cmTC_900b3] Error 1
+        gmake[1]: se sale del directorio '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-SpnXJf'
+        gmake: *** [Makefile:127: cmTC_900b3/fast] Error 2
         
       exitCode: 2
   -
@@ -676,30 +676,30 @@ events:
     checks:
       - "Performing Test UHD_ENABLE_RFNOC"
     directories:
-      source: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-DPnFDn"
-      binary: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-DPnFDn"
+      source: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-0Vov3D"
+      binary: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-0Vov3D"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/cmake/modules"
+      CMAKE_MODULE_PATH: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/cmake/modules"
     buildResult:
       variable: "UHD_ENABLE_RFNOC"
       cached: true
       stdout: |
-        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-DPnFDn'
+        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-0Vov3D'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ed2bd/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_ed2bd.dir/build.make CMakeFiles/cmTC_ed2bd.dir/build
-        gmake[1]: se entra en el directorio '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-DPnFDn'
-        Building CXX object CMakeFiles/cmTC_ed2bd.dir/src.cxx.o
-        /usr/bin/c++ -DUHD_ENABLE_RFNOC  -L/usr/lib/x86_64-linux-gnu -o CMakeFiles/cmTC_ed2bd.dir/src.cxx.o -c /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-DPnFDn/src.cxx
-        /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-DPnFDn/src.cxx:2:14: fatal error: uhd/device3.hpp: No existe el archivo o el directorio
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_07842/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_07842.dir/build.make CMakeFiles/cmTC_07842.dir/build
+        gmake[1]: se entra en el directorio '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-0Vov3D'
+        Building CXX object CMakeFiles/cmTC_07842.dir/src.cxx.o
+        /usr/bin/c++ -DUHD_ENABLE_RFNOC  -L/usr/lib/x86_64-linux-gnu -o CMakeFiles/cmTC_07842.dir/src.cxx.o -c /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-0Vov3D/src.cxx
+        /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-0Vov3D/src.cxx:2:14: fatal error: uhd/device3.hpp: No existe el archivo o el directorio
             2 |     #include <uhd/device3.hpp>
               |              ^~~~~~~~~~~~~~~~~
         compilation terminated.
-        gmake[1]: *** [CMakeFiles/cmTC_ed2bd.dir/build.make:78: CMakeFiles/cmTC_ed2bd.dir/src.cxx.o] Error 1
-        gmake[1]: se sale del directorio '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-DPnFDn'
-        gmake: *** [Makefile:127: cmTC_ed2bd/fast] Error 2
+        gmake[1]: *** [CMakeFiles/cmTC_07842.dir/build.make:78: CMakeFiles/cmTC_07842.dir/src.cxx.o] Error 1
+        gmake[1]: se sale del directorio '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-0Vov3D'
+        gmake: *** [Makefile:127: cmTC_07842/fast] Error 2
         
       exitCode: 2
   -
@@ -712,30 +712,30 @@ events:
     checks:
       - "Performing Test UHD_ENABLE_CUSTOM_RFNOC"
     directories:
-      source: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-tGOvZE"
-      binary: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-tGOvZE"
+      source: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-J96cL2"
+      binary: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-J96cL2"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/cmake/modules"
+      CMAKE_MODULE_PATH: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/cmake/modules"
     buildResult:
       variable: "UHD_ENABLE_CUSTOM_RFNOC"
       cached: true
       stdout: |
-        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-tGOvZE'
+        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-J96cL2'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c957b/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_c957b.dir/build.make CMakeFiles/cmTC_c957b.dir/build
-        gmake[1]: se entra en el directorio '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-tGOvZE'
-        Building CXX object CMakeFiles/cmTC_c957b.dir/src.cxx.o
-        /usr/bin/c++ -DUHD_ENABLE_CUSTOM_RFNOC  -L/usr/lib/x86_64-linux-gnu -o CMakeFiles/cmTC_c957b.dir/src.cxx.o -c /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-tGOvZE/src.cxx
-        /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-tGOvZE/src.cxx:2:14: fatal error: uhd/device3.hpp: No existe el archivo o el directorio
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_50bb4/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_50bb4.dir/build.make CMakeFiles/cmTC_50bb4.dir/build
+        gmake[1]: se entra en el directorio '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-J96cL2'
+        Building CXX object CMakeFiles/cmTC_50bb4.dir/src.cxx.o
+        /usr/bin/c++ -DUHD_ENABLE_CUSTOM_RFNOC  -L/usr/lib/x86_64-linux-gnu -o CMakeFiles/cmTC_50bb4.dir/src.cxx.o -c /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-J96cL2/src.cxx
+        /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-J96cL2/src.cxx:2:14: fatal error: uhd/device3.hpp: No existe el archivo o el directorio
             2 |     #include <uhd/device3.hpp>
               |              ^~~~~~~~~~~~~~~~~
         compilation terminated.
-        gmake[1]: *** [CMakeFiles/cmTC_c957b.dir/build.make:78: CMakeFiles/cmTC_c957b.dir/src.cxx.o] Error 1
-        gmake[1]: se sale del directorio '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-tGOvZE'
-        gmake: *** [Makefile:127: cmTC_c957b/fast] Error 2
+        gmake[1]: *** [CMakeFiles/cmTC_50bb4.dir/build.make:78: CMakeFiles/cmTC_50bb4.dir/src.cxx.o] Error 1
+        gmake[1]: se sale del directorio '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-J96cL2'
+        gmake: *** [Makefile:127: cmTC_50bb4/fast] Error 2
         
       exitCode: 2
   -
@@ -749,27 +749,27 @@ events:
     checks:
       - "Performing Test HAVE_WNO_UNUSED_BUT_SET_VARIABLE"
     directories:
-      source: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-SB8ubv"
-      binary: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-SB8ubv"
+      source: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-fTy86a"
+      binary: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-fTy86a"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall -Wno-comment -Wno-reorder -Wno-unused-variable -Wtype-limits -std=c++14 -fno-strict-aliasing"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/cmake/modules"
+      CMAKE_MODULE_PATH: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/cmake/modules"
     buildResult:
       variable: "HAVE_WNO_UNUSED_BUT_SET_VARIABLE"
       cached: true
       stdout: |
-        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-SB8ubv'
+        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-fTy86a'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_79a3a/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_79a3a.dir/build.make CMakeFiles/cmTC_79a3a.dir/build
-        gmake[1]: Entering directory '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-SB8ubv'
-        Building CXX object CMakeFiles/cmTC_79a3a.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_WNO_UNUSED_BUT_SET_VARIABLE  -Wall -Wno-comment -Wno-reorder -Wno-unused-variable -Wtype-limits -std=c++14 -fno-strict-aliasing    -Wno-unused-but-set-variable -o CMakeFiles/cmTC_79a3a.dir/src.cxx.o -c /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-SB8ubv/src.cxx
-        Linking CXX executable cmTC_79a3a
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79a3a.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall -Wno-comment -Wno-reorder -Wno-unused-variable -Wtype-limits -std=c++14 -fno-strict-aliasing  CMakeFiles/cmTC_79a3a.dir/src.cxx.o -o cmTC_79a3a 
-        gmake[1]: Leaving directory '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-SB8ubv'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_799bb/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_799bb.dir/build.make CMakeFiles/cmTC_799bb.dir/build
+        gmake[1]: Entering directory '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-fTy86a'
+        Building CXX object CMakeFiles/cmTC_799bb.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_WNO_UNUSED_BUT_SET_VARIABLE  -Wall -Wno-comment -Wno-reorder -Wno-unused-variable -Wtype-limits -std=c++14 -fno-strict-aliasing    -Wno-unused-but-set-variable -o CMakeFiles/cmTC_799bb.dir/src.cxx.o -c /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-fTy86a/src.cxx
+        Linking CXX executable cmTC_799bb
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_799bb.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wno-comment -Wno-reorder -Wno-unused-variable -Wtype-limits -std=c++14 -fno-strict-aliasing  CMakeFiles/cmTC_799bb.dir/src.cxx.o -o cmTC_799bb 
+        gmake[1]: Leaving directory '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-fTy86a'
         
       exitCode: 0
   -
@@ -779,27 +779,27 @@ events:
       - "cmake/modules/FindSSE.cmake:39 (check_c_source_runs)"
       - "CMakeLists.txt:372 (find_package)"
     directories:
-      source: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp"
-      binary: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp"
+      source: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp"
+      binary: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/cmake/modules"
+      CMAKE_MODULE_PATH: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/cmake/modules"
     buildResult:
       variable: "HAVE_SSE_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
+        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_966a9/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_966a9.dir/build.make CMakeFiles/cmTC_966a9.dir/build
-        gmake[1]: se entra en el directorio '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
-        Building C object CMakeFiles/cmTC_966a9.dir/src.c.o
-        /usr/bin/cc   -DHAVE_SSE -msse4.1 -o CMakeFiles/cmTC_966a9.dir/src.c.o -c /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp/src.c
-        Linking C executable cmTC_966a9
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_966a9.dir/link.txt --verbose=1
-        /usr/bin/cc  -DHAVE_SSE -msse4.1 CMakeFiles/cmTC_966a9.dir/src.c.o -o cmTC_966a9 
-        gmake[1]: se sale del directorio '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6aed9/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_6aed9.dir/build.make CMakeFiles/cmTC_6aed9.dir/build
+        gmake[1]: se entra en el directorio '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_6aed9.dir/src.c.o
+        /usr/bin/cc   -DHAVE_SSE -msse4.1 -o CMakeFiles/cmTC_6aed9.dir/src.c.o -c /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp/src.c
+        Linking C executable cmTC_6aed9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6aed9.dir/link.txt --verbose=1
+        /usr/bin/cc  -DHAVE_SSE -msse4.1 CMakeFiles/cmTC_6aed9.dir/src.c.o -o cmTC_6aed9 
+        gmake[1]: se sale del directorio '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
         
       exitCode: 0
     runResult:
@@ -814,27 +814,27 @@ events:
       - "cmake/modules/FindSSE.cmake:63 (check_c_source_runs)"
       - "CMakeLists.txt:372 (find_package)"
     directories:
-      source: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp"
-      binary: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp"
+      source: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp"
+      binary: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/cmake/modules"
+      CMAKE_MODULE_PATH: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/cmake/modules"
     buildResult:
       variable: "HAVE_AVX_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
+        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_85cf5/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_85cf5.dir/build.make CMakeFiles/cmTC_85cf5.dir/build
-        gmake[1]: se entra en el directorio '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
-        Building C object CMakeFiles/cmTC_85cf5.dir/src.c.o
-        /usr/bin/cc   -DHAVE_AVX -mavx -o CMakeFiles/cmTC_85cf5.dir/src.c.o -c /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp/src.c
-        Linking C executable cmTC_85cf5
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85cf5.dir/link.txt --verbose=1
-        /usr/bin/cc  -DHAVE_AVX -mavx CMakeFiles/cmTC_85cf5.dir/src.c.o -o cmTC_85cf5 
-        gmake[1]: se sale del directorio '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_96614/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_96614.dir/build.make CMakeFiles/cmTC_96614.dir/build
+        gmake[1]: se entra en el directorio '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_96614.dir/src.c.o
+        /usr/bin/cc   -DHAVE_AVX -mavx -o CMakeFiles/cmTC_96614.dir/src.c.o -c /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp/src.c
+        Linking C executable cmTC_96614
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96614.dir/link.txt --verbose=1
+        /usr/bin/cc  -DHAVE_AVX -mavx CMakeFiles/cmTC_96614.dir/src.c.o -o cmTC_96614 
+        gmake[1]: se sale del directorio '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
         
       exitCode: 0
     runResult:
@@ -849,27 +849,27 @@ events:
       - "cmake/modules/FindSSE.cmake:97 (check_c_source_runs)"
       - "CMakeLists.txt:372 (find_package)"
     directories:
-      source: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp"
-      binary: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp"
+      source: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp"
+      binary: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/cmake/modules"
+      CMAKE_MODULE_PATH: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/cmake/modules"
     buildResult:
       variable: "HAVE_AVX2_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
+        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4ae0b/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_4ae0b.dir/build.make CMakeFiles/cmTC_4ae0b.dir/build
-        gmake[1]: se entra en el directorio '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
-        Building C object CMakeFiles/cmTC_4ae0b.dir/src.c.o
-        /usr/bin/cc   -DHAVE_AVX2 -mavx2 -o CMakeFiles/cmTC_4ae0b.dir/src.c.o -c /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp/src.c
-        Linking C executable cmTC_4ae0b
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ae0b.dir/link.txt --verbose=1
-        /usr/bin/cc  -DHAVE_AVX2 -mavx2 CMakeFiles/cmTC_4ae0b.dir/src.c.o -o cmTC_4ae0b 
-        gmake[1]: se sale del directorio '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_16f8f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_16f8f.dir/build.make CMakeFiles/cmTC_16f8f.dir/build
+        gmake[1]: se entra en el directorio '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_16f8f.dir/src.c.o
+        /usr/bin/cc   -DHAVE_AVX2 -mavx2 -o CMakeFiles/cmTC_16f8f.dir/src.c.o -c /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp/src.c
+        Linking C executable cmTC_16f8f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16f8f.dir/link.txt --verbose=1
+        /usr/bin/cc  -DHAVE_AVX2 -mavx2 CMakeFiles/cmTC_16f8f.dir/src.c.o -o cmTC_16f8f 
+        gmake[1]: se sale del directorio '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
         
       exitCode: 0
     runResult:
@@ -884,27 +884,27 @@ events:
       - "cmake/modules/FindSSE.cmake:131 (check_c_source_runs)"
       - "CMakeLists.txt:372 (find_package)"
     directories:
-      source: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp"
-      binary: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp"
+      source: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp"
+      binary: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/cmake/modules"
+      CMAKE_MODULE_PATH: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/cmake/modules"
     buildResult:
       variable: "HAVE_FMA_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
+        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f523b/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_f523b.dir/build.make CMakeFiles/cmTC_f523b.dir/build
-        gmake[1]: se entra en el directorio '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
-        Building C object CMakeFiles/cmTC_f523b.dir/src.c.o
-        /usr/bin/cc   -DHAVE_FMA -mfma -o CMakeFiles/cmTC_f523b.dir/src.c.o -c /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp/src.c
-        Linking C executable cmTC_f523b
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f523b.dir/link.txt --verbose=1
-        /usr/bin/cc  -DHAVE_FMA -mfma CMakeFiles/cmTC_f523b.dir/src.c.o -o cmTC_f523b 
-        gmake[1]: se sale del directorio '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fbe00/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_fbe00.dir/build.make CMakeFiles/cmTC_fbe00.dir/build
+        gmake[1]: se entra en el directorio '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_fbe00.dir/src.c.o
+        /usr/bin/cc   -DHAVE_FMA -mfma -o CMakeFiles/cmTC_fbe00.dir/src.c.o -c /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp/src.c
+        Linking C executable cmTC_fbe00
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbe00.dir/link.txt --verbose=1
+        /usr/bin/cc  -DHAVE_FMA -mfma CMakeFiles/cmTC_fbe00.dir/src.c.o -o cmTC_fbe00 
+        gmake[1]: se sale del directorio '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
         
       exitCode: 0
     runResult:
@@ -919,27 +919,27 @@ events:
       - "cmake/modules/FindSSE.cmake:166 (check_c_source_runs)"
       - "CMakeLists.txt:372 (find_package)"
     directories:
-      source: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp"
-      binary: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp"
+      source: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp"
+      binary: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/cmake/modules"
+      CMAKE_MODULE_PATH: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/cmake/modules"
     buildResult:
       variable: "HAVE_AVX512_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
+        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_98ab7/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_98ab7.dir/build.make CMakeFiles/cmTC_98ab7.dir/build
-        gmake[1]: se entra en el directorio '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
-        Building C object CMakeFiles/cmTC_98ab7.dir/src.c.o
-        /usr/bin/cc   -DHAVE_AVX512 -mavx512f -mavx512cd -mavx512bw -mavx512dq -DLV_HAVE_AVX512 -o CMakeFiles/cmTC_98ab7.dir/src.c.o -c /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp/src.c
-        Linking C executable cmTC_98ab7
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98ab7.dir/link.txt --verbose=1
-        /usr/bin/cc  -DHAVE_AVX512 -mavx512f -mavx512cd -mavx512bw -mavx512dq -DLV_HAVE_AVX512 CMakeFiles/cmTC_98ab7.dir/src.c.o -o cmTC_98ab7 
-        gmake[1]: se sale del directorio '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_37d16/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_37d16.dir/build.make CMakeFiles/cmTC_37d16.dir/build
+        gmake[1]: se entra en el directorio '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_37d16.dir/src.c.o
+        /usr/bin/cc   -DHAVE_AVX512 -mavx512f -mavx512cd -mavx512bw -mavx512dq -DLV_HAVE_AVX512 -o CMakeFiles/cmTC_37d16.dir/src.c.o -c /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp/src.c
+        Linking C executable cmTC_37d16
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37d16.dir/link.txt --verbose=1
+        /usr/bin/cc  -DHAVE_AVX512 -mavx512f -mavx512cd -mavx512bw -mavx512dq -DLV_HAVE_AVX512 CMakeFiles/cmTC_37d16.dir/src.c.o -o cmTC_37d16 
+        gmake[1]: se sale del directorio '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeTmp'
         
       exitCode: 0
     runResult:
@@ -958,27 +958,27 @@ events:
     checks:
       - "Performing Test HAVE_MARCH_native"
     directories:
-      source: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-fysS6p"
-      binary: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-fysS6p"
+      source: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-gLBYdj"
+      binary: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-gLBYdj"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/cmake/modules"
+      CMAKE_MODULE_PATH: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/cmake/modules"
     buildResult:
       variable: "HAVE_MARCH_native"
       cached: true
       stdout: |
-        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-fysS6p'
+        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-gLBYdj'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_38724/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_38724.dir/build.make CMakeFiles/cmTC_38724.dir/build
-        gmake[1]: Entering directory '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-fysS6p'
-        Building C object CMakeFiles/cmTC_38724.dir/src.c.o
-        /usr/bin/cc -DHAVE_MARCH_native  -mavx512f -mavx512cd -mavx512bw -mavx512dq -DLV_HAVE_AVX512   -march=native -o CMakeFiles/cmTC_38724.dir/src.c.o -c /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-fysS6p/src.c
-        Linking C executable cmTC_38724
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38724.dir/link.txt --verbose=1
-        /usr/bin/cc  -mavx512f -mavx512cd -mavx512bw -mavx512dq -DLV_HAVE_AVX512 CMakeFiles/cmTC_38724.dir/src.c.o -o cmTC_38724 
-        gmake[1]: Leaving directory '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-fysS6p'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0c66a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0c66a.dir/build.make CMakeFiles/cmTC_0c66a.dir/build
+        gmake[1]: Entering directory '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-gLBYdj'
+        Building C object CMakeFiles/cmTC_0c66a.dir/src.c.o
+        /usr/bin/cc -DHAVE_MARCH_native  -mavx512f -mavx512cd -mavx512bw -mavx512dq -DLV_HAVE_AVX512   -march=native -o CMakeFiles/cmTC_0c66a.dir/src.c.o -c /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-gLBYdj/src.c
+        Linking C executable cmTC_0c66a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c66a.dir/link.txt --verbose=1
+        /usr/bin/cc  -mavx512f -mavx512cd -mavx512bw -mavx512dq -DLV_HAVE_AVX512 CMakeFiles/cmTC_0c66a.dir/src.c.o -o cmTC_0c66a 
+        gmake[1]: Leaving directory '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-gLBYdj'
         
       exitCode: 0
   -
@@ -992,27 +992,27 @@ events:
     checks:
       - "Performing Test HAVE_VISIBILITY_HIDDEN_CXX"
     directories:
-      source: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-LADj5Q"
-      binary: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-LADj5Q"
+      source: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-wQpuSq"
+      binary: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-wQpuSq"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall -Wno-comment -Wno-reorder -Wno-unused-variable -Wtype-limits -std=c++14 -fno-strict-aliasing -Wno-unused-but-set-variable -march=native -mfpmath=sse -mavx2 -DLV_HAVE_AVX2 -DLV_HAVE_AVX -DLV_HAVE_SSE"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/cmake/modules"
+      CMAKE_MODULE_PATH: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/cmake/modules"
     buildResult:
       variable: "HAVE_VISIBILITY_HIDDEN_CXX"
       cached: true
       stdout: |
-        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-LADj5Q'
+        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-wQpuSq'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2af60/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_2af60.dir/build.make CMakeFiles/cmTC_2af60.dir/build
-        gmake[1]: Entering directory '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-LADj5Q'
-        Building CXX object CMakeFiles/cmTC_2af60.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_VISIBILITY_HIDDEN_CXX  -Wall -Wno-comment -Wno-reorder -Wno-unused-variable -Wtype-limits -std=c++14 -fno-strict-aliasing -Wno-unused-but-set-variable -march=native -mfpmath=sse -mavx2 -DLV_HAVE_AVX2 -DLV_HAVE_AVX -DLV_HAVE_SSE -mavx512f -mavx512cd -mavx512bw -mavx512dq -DLV_HAVE_AVX512   -fvisibility=hidden -o CMakeFiles/cmTC_2af60.dir/src.cxx.o -c /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-LADj5Q/src.cxx
-        Linking CXX executable cmTC_2af60
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2af60.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall -Wno-comment -Wno-reorder -Wno-unused-variable -Wtype-limits -std=c++14 -fno-strict-aliasing -Wno-unused-but-set-variable -march=native -mfpmath=sse -mavx2 -DLV_HAVE_AVX2 -DLV_HAVE_AVX -DLV_HAVE_SSE -mavx512f -mavx512cd -mavx512bw -mavx512dq -DLV_HAVE_AVX512 CMakeFiles/cmTC_2af60.dir/src.cxx.o -o cmTC_2af60 
-        gmake[1]: Leaving directory '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-LADj5Q'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a88ac/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a88ac.dir/build.make CMakeFiles/cmTC_a88ac.dir/build
+        gmake[1]: Entering directory '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-wQpuSq'
+        Building CXX object CMakeFiles/cmTC_a88ac.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_VISIBILITY_HIDDEN_CXX  -Wall -Wno-comment -Wno-reorder -Wno-unused-variable -Wtype-limits -std=c++14 -fno-strict-aliasing -Wno-unused-but-set-variable -march=native -mfpmath=sse -mavx2 -DLV_HAVE_AVX2 -DLV_HAVE_AVX -DLV_HAVE_SSE -mavx512f -mavx512cd -mavx512bw -mavx512dq -DLV_HAVE_AVX512   -fvisibility=hidden -o CMakeFiles/cmTC_a88ac.dir/src.cxx.o -c /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-wQpuSq/src.cxx
+        Linking CXX executable cmTC_a88ac
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a88ac.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wno-comment -Wno-reorder -Wno-unused-variable -Wtype-limits -std=c++14 -fno-strict-aliasing -Wno-unused-but-set-variable -march=native -mfpmath=sse -mavx2 -DLV_HAVE_AVX2 -DLV_HAVE_AVX -DLV_HAVE_SSE -mavx512f -mavx512cd -mavx512bw -mavx512dq -DLV_HAVE_AVX512 CMakeFiles/cmTC_a88ac.dir/src.cxx.o -o cmTC_a88ac 
+        gmake[1]: Leaving directory '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-wQpuSq'
         
       exitCode: 0
   -
@@ -1026,27 +1026,27 @@ events:
     checks:
       - "Performing Test HAVE_ERROR_INCOMPATIBLE"
     directories:
-      source: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-GEYvnv"
-      binary: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-GEYvnv"
+      source: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-bAYdC1"
+      binary: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-bAYdC1"
     cmakeVariables:
       CMAKE_C_FLAGS: " -march=native"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/cmake/modules"
+      CMAKE_MODULE_PATH: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/cmake/modules"
     buildResult:
       variable: "HAVE_ERROR_INCOMPATIBLE"
       cached: true
       stdout: |
-        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-GEYvnv'
+        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-bAYdC1'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8bbbd/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_8bbbd.dir/build.make CMakeFiles/cmTC_8bbbd.dir/build
-        gmake[1]: Entering directory '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-GEYvnv'
-        Building C object CMakeFiles/cmTC_8bbbd.dir/src.c.o
-        /usr/bin/cc -DHAVE_ERROR_INCOMPATIBLE  -march=native -mavx512f -mavx512cd -mavx512bw -mavx512dq -DLV_HAVE_AVX512   -Werror=incompatible-pointer-types -o CMakeFiles/cmTC_8bbbd.dir/src.c.o -c /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-GEYvnv/src.c
-        Linking C executable cmTC_8bbbd
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8bbbd.dir/link.txt --verbose=1
-        /usr/bin/cc  -march=native -mavx512f -mavx512cd -mavx512bw -mavx512dq -DLV_HAVE_AVX512 CMakeFiles/cmTC_8bbbd.dir/src.c.o -o cmTC_8bbbd 
-        gmake[1]: Leaving directory '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-GEYvnv'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_54ec5/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_54ec5.dir/build.make CMakeFiles/cmTC_54ec5.dir/build
+        gmake[1]: Entering directory '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-bAYdC1'
+        Building C object CMakeFiles/cmTC_54ec5.dir/src.c.o
+        /usr/bin/cc -DHAVE_ERROR_INCOMPATIBLE  -march=native -mavx512f -mavx512cd -mavx512bw -mavx512dq -DLV_HAVE_AVX512   -Werror=incompatible-pointer-types -o CMakeFiles/cmTC_54ec5.dir/src.c.o -c /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-bAYdC1/src.c
+        Linking C executable cmTC_54ec5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54ec5.dir/link.txt --verbose=1
+        /usr/bin/cc  -march=native -mavx512f -mavx512cd -mavx512bw -mavx512dq -DLV_HAVE_AVX512 CMakeFiles/cmTC_54ec5.dir/src.c.o -o cmTC_54ec5 
+        gmake[1]: Leaving directory '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-bAYdC1'
         
       exitCode: 0
   -
@@ -1060,27 +1060,27 @@ events:
     checks:
       - "Performing Test HAVE_VISIBILITY_HIDDEN_C"
     directories:
-      source: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-oKDlYq"
-      binary: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-oKDlYq"
+      source: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-A7OweT"
+      binary: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-A7OweT"
     cmakeVariables:
       CMAKE_C_FLAGS: " -march=native -Werror=incompatible-pointer-types -Wall -Wno-comment -Wno-write-strings -Wno-unused-result -Wformat -Wmissing-field-initializers -Wtype-limits -std=c99 -fno-strict-aliasing -D_GNU_SOURCE -Wno-unused-but-set-variable -O3 -fno-trapping-math -fno-math-errno -DBUILD_TYPE_RELEASE -mfpmath=sse -mavx2 -DLV_HAVE_AVX2 -DLV_HAVE_AVX -DLV_HAVE_SSE -mfma -DLV_HAVE_FMA -Ofast -funroll-loops"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/cmake/modules"
+      CMAKE_MODULE_PATH: "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/cmake/modules"
     buildResult:
       variable: "HAVE_VISIBILITY_HIDDEN_C"
       cached: true
       stdout: |
-        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-oKDlYq'
+        Change Dir: '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-A7OweT'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5fe70/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_5fe70.dir/build.make CMakeFiles/cmTC_5fe70.dir/build
-        gmake[1]: Entering directory '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-oKDlYq'
-        Building C object CMakeFiles/cmTC_5fe70.dir/src.c.o
-        /usr/bin/cc -DHAVE_VISIBILITY_HIDDEN_C  -march=native -Werror=incompatible-pointer-types -Wall -Wno-comment -Wno-write-strings -Wno-unused-result -Wformat -Wmissing-field-initializers -Wtype-limits -std=c99 -fno-strict-aliasing -D_GNU_SOURCE -Wno-unused-but-set-variable -O3 -fno-trapping-math -fno-math-errno -DBUILD_TYPE_RELEASE -mfpmath=sse -mavx2 -DLV_HAVE_AVX2 -DLV_HAVE_AVX -DLV_HAVE_SSE -mfma -DLV_HAVE_FMA -Ofast -funroll-loops  -march=native -Werror=incompatible-pointer-types -Wall -Wno-comment -Wno-write-strings -Wno-unused-result -Wformat -Wmissing-field-initializers -Wtype-limits -std=c99 -fno-strict-aliasing -D_GNU_SOURCE -Wno-unused-but-set-variable -O3 -fno-trapping-math -fno-math-errno -DBUILD_TYPE_RELEASE -mfpmath=sse -mavx2 -DLV_HAVE_AVX2 -DLV_HAVE_AVX -DLV_HAVE_SSE -mfma -DLV_HAVE_FMA -Ofast -funroll-loops   -fvisibility=hidden -o CMakeFiles/cmTC_5fe70.dir/src.c.o -c /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-oKDlYq/src.c
-        Linking C executable cmTC_5fe70
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fe70.dir/link.txt --verbose=1
-        /usr/bin/cc  -march=native -Werror=incompatible-pointer-types -Wall -Wno-comment -Wno-write-strings -Wno-unused-result -Wformat -Wmissing-field-initializers -Wtype-limits -std=c99 -fno-strict-aliasing -D_GNU_SOURCE -Wno-unused-but-set-variable -O3 -fno-trapping-math -fno-math-errno -DBUILD_TYPE_RELEASE -mfpmath=sse -mavx2 -DLV_HAVE_AVX2 -DLV_HAVE_AVX -DLV_HAVE_SSE -mfma -DLV_HAVE_FMA -Ofast -funroll-loops  -march=native -Werror=incompatible-pointer-types -Wall -Wno-comment -Wno-write-strings -Wno-unused-result -Wformat -Wmissing-field-initializers -Wtype-limits -std=c99 -fno-strict-aliasing -D_GNU_SOURCE -Wno-unused-but-set-variable -O3 -fno-trapping-math -fno-math-errno -DBUILD_TYPE_RELEASE -mfpmath=sse -mavx2 -DLV_HAVE_AVX2 -DLV_HAVE_AVX -DLV_HAVE_SSE -mfma -DLV_HAVE_FMA -Ofast -funroll-loops CMakeFiles/cmTC_5fe70.dir/src.c.o -o cmTC_5fe70 
-        gmake[1]: Leaving directory '/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-oKDlYq'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3463d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3463d.dir/build.make CMakeFiles/cmTC_3463d.dir/build
+        gmake[1]: Entering directory '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-A7OweT'
+        Building C object CMakeFiles/cmTC_3463d.dir/src.c.o
+        /usr/bin/cc -DHAVE_VISIBILITY_HIDDEN_C  -march=native -Werror=incompatible-pointer-types -Wall -Wno-comment -Wno-write-strings -Wno-unused-result -Wformat -Wmissing-field-initializers -Wtype-limits -std=c99 -fno-strict-aliasing -D_GNU_SOURCE -Wno-unused-but-set-variable -O3 -fno-trapping-math -fno-math-errno -DBUILD_TYPE_RELEASE -mfpmath=sse -mavx2 -DLV_HAVE_AVX2 -DLV_HAVE_AVX -DLV_HAVE_SSE -mfma -DLV_HAVE_FMA -Ofast -funroll-loops  -march=native -Werror=incompatible-pointer-types -Wall -Wno-comment -Wno-write-strings -Wno-unused-result -Wformat -Wmissing-field-initializers -Wtype-limits -std=c99 -fno-strict-aliasing -D_GNU_SOURCE -Wno-unused-but-set-variable -O3 -fno-trapping-math -fno-math-errno -DBUILD_TYPE_RELEASE -mfpmath=sse -mavx2 -DLV_HAVE_AVX2 -DLV_HAVE_AVX -DLV_HAVE_SSE -mfma -DLV_HAVE_FMA -Ofast -funroll-loops   -fvisibility=hidden -o CMakeFiles/cmTC_3463d.dir/src.c.o -c /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-A7OweT/src.c
+        Linking C executable cmTC_3463d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3463d.dir/link.txt --verbose=1
+        /usr/bin/cc  -march=native -Werror=incompatible-pointer-types -Wall -Wno-comment -Wno-write-strings -Wno-unused-result -Wformat -Wmissing-field-initializers -Wtype-limits -std=c99 -fno-strict-aliasing -D_GNU_SOURCE -Wno-unused-but-set-variable -O3 -fno-trapping-math -fno-math-errno -DBUILD_TYPE_RELEASE -mfpmath=sse -mavx2 -DLV_HAVE_AVX2 -DLV_HAVE_AVX -DLV_HAVE_SSE -mfma -DLV_HAVE_FMA -Ofast -funroll-loops  -march=native -Werror=incompatible-pointer-types -Wall -Wno-comment -Wno-write-strings -Wno-unused-result -Wformat -Wmissing-field-initializers -Wtype-limits -std=c99 -fno-strict-aliasing -D_GNU_SOURCE -Wno-unused-but-set-variable -O3 -fno-trapping-math -fno-math-errno -DBUILD_TYPE_RELEASE -mfpmath=sse -mavx2 -DLV_HAVE_AVX2 -DLV_HAVE_AVX -DLV_HAVE_SSE -mfma -DLV_HAVE_FMA -Ofast -funroll-loops CMakeFiles/cmTC_3463d.dir/src.c.o -o cmTC_3463d 
+        gmake[1]: Leaving directory '/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles/CMakeScratch/TryCompile-A7OweT'
         
       exitCode: 0
 ...

@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsepc/src/mbms-gw/main.cc" "srsepc/src/mbms-gw/CMakeFiles/srsepc_mbms_gw.dir/main.cc.o" "gcc" "srsepc/src/mbms-gw/CMakeFiles/srsepc_mbms_gw.dir/main.cc.o.d"
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsepc/src/mbms-gw/mbms-gw.cc" "srsepc/src/mbms-gw/CMakeFiles/srsepc_mbms_gw.dir/mbms-gw.cc.o" "gcc" "srsepc/src/mbms-gw/CMakeFiles/srsepc_mbms_gw.dir/mbms-gw.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsepc/src/mbms-gw/main.cc" "srsepc/src/mbms-gw/CMakeFiles/srsepc_mbms_gw.dir/main.cc.o" "gcc" "srsepc/src/mbms-gw/CMakeFiles/srsepc_mbms_gw.dir/main.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsepc/src/mbms-gw/mbms-gw.cc" "srsepc/src/mbms-gw/CMakeFiles/srsepc_mbms_gw.dir/mbms-gw.cc.o" "gcc" "srsepc/src/mbms-gw/CMakeFiles/srsepc_mbms_gw.dir/mbms-gw.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

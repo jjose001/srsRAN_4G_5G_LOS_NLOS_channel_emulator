@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/test/phy/nr_phy_test.cc" "test/phy/CMakeFiles/nr_phy_test.dir/nr_phy_test.cc.o" "gcc" "test/phy/CMakeFiles/nr_phy_test.dir/nr_phy_test.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/test/phy/nr_phy_test.cc" "test/phy/CMakeFiles/nr_phy_test.dir/nr_phy_test.cc.o" "gcc" "test/phy/CMakeFiles/nr_phy_test.dir/nr_phy_test.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

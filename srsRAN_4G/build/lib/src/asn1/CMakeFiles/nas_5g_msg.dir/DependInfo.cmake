@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/src/asn1/nas_5g_ies.cc" "lib/src/asn1/CMakeFiles/nas_5g_msg.dir/nas_5g_ies.cc.o" "gcc" "lib/src/asn1/CMakeFiles/nas_5g_msg.dir/nas_5g_ies.cc.o.d"
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/src/asn1/nas_5g_msg.cc" "lib/src/asn1/CMakeFiles/nas_5g_msg.dir/nas_5g_msg.cc.o" "gcc" "lib/src/asn1/CMakeFiles/nas_5g_msg.dir/nas_5g_msg.cc.o.d"
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/src/asn1/nas_5g_utils.cc" "lib/src/asn1/CMakeFiles/nas_5g_msg.dir/nas_5g_utils.cc.o" "gcc" "lib/src/asn1/CMakeFiles/nas_5g_msg.dir/nas_5g_utils.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/asn1/nas_5g_ies.cc" "lib/src/asn1/CMakeFiles/nas_5g_msg.dir/nas_5g_ies.cc.o" "gcc" "lib/src/asn1/CMakeFiles/nas_5g_msg.dir/nas_5g_ies.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/asn1/nas_5g_msg.cc" "lib/src/asn1/CMakeFiles/nas_5g_msg.dir/nas_5g_msg.cc.o" "gcc" "lib/src/asn1/CMakeFiles/nas_5g_msg.dir/nas_5g_msg.cc.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/asn1/nas_5g_utils.cc" "lib/src/asn1/CMakeFiles/nas_5g_msg.dir/nas_5g_utils.cc.o" "gcc" "lib/src/asn1/CMakeFiles/nas_5g_msg.dir/nas_5g_utils.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

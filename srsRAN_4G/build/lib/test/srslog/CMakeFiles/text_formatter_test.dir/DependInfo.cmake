@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/lib/test/srslog/text_formatter_test.cpp" "lib/test/srslog/CMakeFiles/text_formatter_test.dir/text_formatter_test.cpp.o" "gcc" "lib/test/srslog/CMakeFiles/text_formatter_test.dir/text_formatter_test.cpp.o.d"
+  "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/test/srslog/text_formatter_test.cpp" "lib/test/srslog/CMakeFiles/text_formatter_test.dir/text_formatter_test.cpp.o" "gcc" "lib/test/srslog/CMakeFiles/text_formatter_test.dir/text_formatter_test.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -1,4 +1,4 @@
-# Install script for directory: /home/joao/Escritorio/GITHUB/srsRAN_INVESTIGACION_JOAO/srsRAN_4G/srsenb/src/stack/mac/schedulers
+# Install script for directory: /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/srsenb/src/stack/mac/schedulers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
