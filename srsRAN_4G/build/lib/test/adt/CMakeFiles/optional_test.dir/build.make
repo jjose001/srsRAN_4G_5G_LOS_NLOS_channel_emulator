@@ -99,6 +99,7 @@ lib/test/adt/optional_test: lib/src/support/libsupport.a
 lib/test/adt/optional_test: lib/src/srslog/libsrslog.a
 lib/test/adt/optional_test: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so
 lib/test/adt/optional_test: /usr/lib/x86_64-linux-gnu/libdw.so
+lib/test/adt/optional_test: /usr/lib/x86_64-linux-gnu/libsctp.so
 lib/test/adt/optional_test: lib/test/adt/CMakeFiles/optional_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable optional_test"
 	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/test/adt && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/optional_test.dir/link.txt --verbose=$(VERBOSE)

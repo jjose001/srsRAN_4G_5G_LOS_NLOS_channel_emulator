@@ -247,6 +247,34 @@ awgn_channel_test/fast:
 	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build && $(MAKE) $(MAKESILENT) -f lib/src/phy/channel/test/CMakeFiles/awgn_channel_test.dir/build.make lib/src/phy/channel/test/CMakeFiles/awgn_channel_test.dir/build
 .PHONY : awgn_channel_test/fast
 
+# Convenience name for target.
+lib/src/phy/channel/test/CMakeFiles/fading_los_validation.dir/rule:
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/src/phy/channel/test/CMakeFiles/fading_los_validation.dir/rule
+.PHONY : lib/src/phy/channel/test/CMakeFiles/fading_los_validation.dir/rule
+
+# Convenience name for target.
+fading_los_validation: lib/src/phy/channel/test/CMakeFiles/fading_los_validation.dir/rule
+.PHONY : fading_los_validation
+
+# fast build rule for target.
+fading_los_validation/fast:
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build && $(MAKE) $(MAKESILENT) -f lib/src/phy/channel/test/CMakeFiles/fading_los_validation.dir/build.make lib/src/phy/channel/test/CMakeFiles/fading_los_validation.dir/build
+.PHONY : fading_los_validation/fast
+
+# Convenience name for target.
+lib/src/phy/channel/test/CMakeFiles/fading_nlos_validation.dir/rule:
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/src/phy/channel/test/CMakeFiles/fading_nlos_validation.dir/rule
+.PHONY : lib/src/phy/channel/test/CMakeFiles/fading_nlos_validation.dir/rule
+
+# Convenience name for target.
+fading_nlos_validation: lib/src/phy/channel/test/CMakeFiles/fading_nlos_validation.dir/rule
+.PHONY : fading_nlos_validation
+
+# fast build rule for target.
+fading_nlos_validation/fast:
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build && $(MAKE) $(MAKESILENT) -f lib/src/phy/channel/test/CMakeFiles/fading_nlos_validation.dir/build.make lib/src/phy/channel/test/CMakeFiles/fading_nlos_validation.dir/build
+.PHONY : fading_nlos_validation/fast
+
 awgn_channel_test.o: awgn_channel_test.c.o
 .PHONY : awgn_channel_test.o
 
@@ -319,6 +347,54 @@ fading_channel_test.c.s:
 	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build && $(MAKE) $(MAKESILENT) -f lib/src/phy/channel/test/CMakeFiles/fading_channel_test.dir/build.make lib/src/phy/channel/test/CMakeFiles/fading_channel_test.dir/fading_channel_test.c.s
 .PHONY : fading_channel_test.c.s
 
+fading_los_validation.o: fading_los_validation.c.o
+.PHONY : fading_los_validation.o
+
+# target to build an object file
+fading_los_validation.c.o:
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build && $(MAKE) $(MAKESILENT) -f lib/src/phy/channel/test/CMakeFiles/fading_los_validation.dir/build.make lib/src/phy/channel/test/CMakeFiles/fading_los_validation.dir/fading_los_validation.c.o
+.PHONY : fading_los_validation.c.o
+
+fading_los_validation.i: fading_los_validation.c.i
+.PHONY : fading_los_validation.i
+
+# target to preprocess a source file
+fading_los_validation.c.i:
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build && $(MAKE) $(MAKESILENT) -f lib/src/phy/channel/test/CMakeFiles/fading_los_validation.dir/build.make lib/src/phy/channel/test/CMakeFiles/fading_los_validation.dir/fading_los_validation.c.i
+.PHONY : fading_los_validation.c.i
+
+fading_los_validation.s: fading_los_validation.c.s
+.PHONY : fading_los_validation.s
+
+# target to generate assembly for a file
+fading_los_validation.c.s:
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build && $(MAKE) $(MAKESILENT) -f lib/src/phy/channel/test/CMakeFiles/fading_los_validation.dir/build.make lib/src/phy/channel/test/CMakeFiles/fading_los_validation.dir/fading_los_validation.c.s
+.PHONY : fading_los_validation.c.s
+
+fading_nlos_validation.o: fading_nlos_validation.c.o
+.PHONY : fading_nlos_validation.o
+
+# target to build an object file
+fading_nlos_validation.c.o:
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build && $(MAKE) $(MAKESILENT) -f lib/src/phy/channel/test/CMakeFiles/fading_nlos_validation.dir/build.make lib/src/phy/channel/test/CMakeFiles/fading_nlos_validation.dir/fading_nlos_validation.c.o
+.PHONY : fading_nlos_validation.c.o
+
+fading_nlos_validation.i: fading_nlos_validation.c.i
+.PHONY : fading_nlos_validation.i
+
+# target to preprocess a source file
+fading_nlos_validation.c.i:
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build && $(MAKE) $(MAKESILENT) -f lib/src/phy/channel/test/CMakeFiles/fading_nlos_validation.dir/build.make lib/src/phy/channel/test/CMakeFiles/fading_nlos_validation.dir/fading_nlos_validation.c.i
+.PHONY : fading_nlos_validation.c.i
+
+fading_nlos_validation.s: fading_nlos_validation.c.s
+.PHONY : fading_nlos_validation.s
+
+# target to generate assembly for a file
+fading_nlos_validation.c.s:
+	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build && $(MAKE) $(MAKESILENT) -f lib/src/phy/channel/test/CMakeFiles/fading_nlos_validation.dir/build.make lib/src/phy/channel/test/CMakeFiles/fading_nlos_validation.dir/fading_nlos_validation.c.s
+.PHONY : fading_nlos_validation.c.s
+
 hst_channel_test.o: hst_channel_test.c.o
 .PHONY : hst_channel_test.o
 
@@ -361,6 +437,8 @@ help:
 	@echo "... awgn_channel_test"
 	@echo "... delay_channel_test"
 	@echo "... fading_channel_test"
+	@echo "... fading_los_validation"
+	@echo "... fading_nlos_validation"
 	@echo "... hst_channel_test"
 	@echo "... awgn_channel_test.o"
 	@echo "... awgn_channel_test.i"
@@ -371,6 +449,12 @@ help:
 	@echo "... fading_channel_test.o"
 	@echo "... fading_channel_test.i"
 	@echo "... fading_channel_test.s"
+	@echo "... fading_los_validation.o"
+	@echo "... fading_los_validation.i"
+	@echo "... fading_los_validation.s"
+	@echo "... fading_nlos_validation.o"
+	@echo "... fading_nlos_validation.i"
+	@echo "... fading_nlos_validation.s"
 	@echo "... hst_channel_test.o"
 	@echo "... hst_channel_test.i"
 	@echo "... hst_channel_test.s"

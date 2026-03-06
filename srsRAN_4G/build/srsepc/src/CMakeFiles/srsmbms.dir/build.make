@@ -107,6 +107,7 @@ srsepc/src/srsmbms: lib/src/phy/libsrsran_phy.a
 srsepc/src/srsmbms: /usr/lib/x86_64-linux-gnu/libfftw3f.so
 srsepc/src/srsmbms: lib/src/support/libsupport.a
 srsepc/src/srsmbms: /usr/lib/x86_64-linux-gnu/libdw.so
+srsepc/src/srsmbms: /usr/lib/x86_64-linux-gnu/libsctp.so
 srsepc/src/srsmbms: srsepc/src/CMakeFiles/srsmbms.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable srsmbms"
 	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsepc/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/srsmbms.dir/link.txt --verbose=$(VERBOSE)

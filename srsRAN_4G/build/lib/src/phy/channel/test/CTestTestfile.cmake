@@ -16,3 +16,7 @@ add_test(hst_channel_test "hst_channel_test" "-f" "750" "-t" "7.2" "-i" "0" "-T"
 set_tests_properties(hst_channel_test PROPERTIES  _BACKTRACE_TRIPLES "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/phy/channel/test/CMakeLists.txt;38;add_test;/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/phy/channel/test/CMakeLists.txt;0;")
 add_test(awgn_channel_test "awgn_channel_test")
 set_tests_properties(awgn_channel_test PROPERTIES  _BACKTRACE_TRIPLES "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/phy/channel/test/CMakeLists.txt;45;add_test;/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/phy/channel/test/CMakeLists.txt;0;")
+add_test(fading_los_validation "fading_los_validation")
+set_tests_properties(fading_los_validation PROPERTIES  _BACKTRACE_TRIPLES "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/phy/channel/test/CMakeLists.txt;50;add_test;/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/phy/channel/test/CMakeLists.txt;0;")
+add_test(fading_nlos_validation "fading_nlos_validation")
+set_tests_properties(fading_nlos_validation PROPERTIES  _BACKTRACE_TRIPLES "/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/phy/channel/test/CMakeLists.txt;55;add_test;/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/lib/src/phy/channel/test/CMakeLists.txt;0;")

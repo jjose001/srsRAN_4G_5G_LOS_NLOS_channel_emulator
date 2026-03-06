@@ -488,6 +488,8 @@
 /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/src/phy/channel/test/CMakeFiles/delay_channel_test.dir
 /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/src/phy/channel/test/CMakeFiles/hst_channel_test.dir
 /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/src/phy/channel/test/CMakeFiles/awgn_channel_test.dir
+/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/src/phy/channel/test/CMakeFiles/fading_los_validation.dir
+/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/src/phy/channel/test/CMakeFiles/fading_nlos_validation.dir
 /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/src/phy/channel/test/CMakeFiles/package.dir
 /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/src/phy/channel/test/CMakeFiles/package_source.dir
 /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/lib/src/phy/channel/test/CMakeFiles/test.dir

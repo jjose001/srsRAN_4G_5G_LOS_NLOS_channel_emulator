@@ -44,3 +44,12 @@ endif(SRSGUI_FOUND)
 target_link_libraries(awgn_channel_test srsran_phy srsran_common srsran_phy ${SEC_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT})
 add_test(awgn_channel_test awgn_channel_test)
 
+# ---- Deep LOS validation test (TDL-D/E: Doppler peak, K-factor, Rice/Rayleigh distribution) ----
+add_executable(fading_los_validation fading_los_validation.c)
+target_link_libraries(fading_los_validation srsran_phy srsran_common ${SEC_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT} m)
+add_test(fading_los_validation fading_los_validation)
+
+# ---- Deep NLOS validation test (TDL-A/B/C: Jakes bandwidth, Rayleigh signature) ----
+add_executable(fading_nlos_validation fading_nlos_validation.c)
+target_link_libraries(fading_nlos_validation srsran_phy srsran_common ${SEC_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT} m)
+add_test(fading_nlos_validation fading_nlos_validation)

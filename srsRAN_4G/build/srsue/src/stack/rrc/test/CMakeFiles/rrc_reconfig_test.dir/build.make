@@ -106,6 +106,7 @@ srsue/src/stack/rrc/test/rrc_reconfig_test: lib/src/srslog/libsrslog.a
 srsue/src/stack/rrc/test/rrc_reconfig_test: lib/src/support/libsupport.a
 srsue/src/stack/rrc/test/rrc_reconfig_test: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so
 srsue/src/stack/rrc/test/rrc_reconfig_test: /usr/lib/x86_64-linux-gnu/libdw.so
+srsue/src/stack/rrc/test/rrc_reconfig_test: /usr/lib/x86_64-linux-gnu/libsctp.so
 srsue/src/stack/rrc/test/rrc_reconfig_test: srsue/src/stack/rrc/test/CMakeFiles/rrc_reconfig_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable rrc_reconfig_test"
 	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsue/src/stack/rrc/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rrc_reconfig_test.dir/link.txt --verbose=$(VERBOSE)

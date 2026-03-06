@@ -2350,6 +2350,32 @@ awgn_channel_test/fast:
 .PHONY : awgn_channel_test/fast
 
 #=============================================================================
+# Target rules for targets named fading_los_validation
+
+# Build rule for target.
+fading_los_validation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fading_los_validation
+.PHONY : fading_los_validation
+
+# fast build rule for target.
+fading_los_validation/fast:
+	$(MAKE) $(MAKESILENT) -f lib/src/phy/channel/test/CMakeFiles/fading_los_validation.dir/build.make lib/src/phy/channel/test/CMakeFiles/fading_los_validation.dir/build
+.PHONY : fading_los_validation/fast
+
+#=============================================================================
+# Target rules for targets named fading_nlos_validation
+
+# Build rule for target.
+fading_nlos_validation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fading_nlos_validation
+.PHONY : fading_nlos_validation
+
+# fast build rule for target.
+fading_nlos_validation/fast:
+	$(MAKE) $(MAKESILENT) -f lib/src/phy/channel/test/CMakeFiles/fading_nlos_validation.dir/build.make lib/src/phy/channel/test/CMakeFiles/fading_nlos_validation.dir/build
+.PHONY : fading_nlos_validation/fast
+
+#=============================================================================
 # Target rules for targets named srsran_dft
 
 # Build rule for target.
@@ -5287,6 +5313,8 @@ help:
 	@echo "... erab_setup_test"
 	@echo "... expected_test"
 	@echo "... fading_channel_test"
+	@echo "... fading_los_validation"
+	@echo "... fading_nlos_validation"
 	@echo "... file_sink_test"
 	@echo "... file_utils_test"
 	@echo "... freq_est_test"

@@ -110,6 +110,7 @@ srsenb/test/mac/sched_grid_test: lib/src/support/libsupport.a
 srsenb/test/mac/sched_grid_test: lib/src/srslog/libsrslog.a
 srsenb/test/mac/sched_grid_test: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so
 srsenb/test/mac/sched_grid_test: /usr/lib/x86_64-linux-gnu/libdw.so
+srsenb/test/mac/sched_grid_test: /usr/lib/x86_64-linux-gnu/libsctp.so
 srsenb/test/mac/sched_grid_test: srsenb/test/mac/CMakeFiles/sched_grid_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable sched_grid_test"
 	cd /home/joao/Escritorio/GITHUB/srsRAN_TDL_LOS_JOAO/srsRAN_4G/build/srsenb/test/mac && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sched_grid_test.dir/link.txt --verbose=$(VERBOSE)

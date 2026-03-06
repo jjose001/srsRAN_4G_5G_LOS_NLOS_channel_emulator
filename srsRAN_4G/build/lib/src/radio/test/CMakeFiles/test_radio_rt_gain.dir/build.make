@@ -102,6 +102,7 @@ lib/src/radio/test/test_radio_rt_gain: lib/src/support/libsupport.a
 lib/src/radio/test/test_radio_rt_gain: lib/src/srslog/libsrslog.a
 lib/src/radio/test/test_radio_rt_gain: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so
 lib/src/radio/test/test_radio_rt_gain: /usr/lib/x86_64-linux-gnu/libdw.so
+lib/src/radio/test/test_radio_rt_gain: /usr/lib/x86_64-linux-gnu/libsctp.so
 lib/src/radio/test/test_radio_rt_gain: lib/src/phy/rf/libsrsran_rf.so.23.04.0
 lib/src/radio/test/test_radio_rt_gain: lib/src/phy/rf/libsrsran_rf_utils.a
 lib/src/radio/test/test_radio_rt_gain: lib/src/phy/libsrsran_phy.a
