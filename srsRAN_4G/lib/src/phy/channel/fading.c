@@ -319,7 +319,8 @@ static inline cf_t get_los_phasor(float t, float f_d, float phi0)
  * ---------------------------------------------------------------------------*/
 static inline void generate_tap(float delay_ns, float power_db, float srate, cf_t* buf, uint32_t N, uint32_t path_delay)
 {
-  float amplitude = srsran_convert_dB_to_power(power_db);
+  // Módulo H_tap[k]: La amplitud debe ser la RAÍZ CUADRADA de la potencia lineal
+  float amplitude = sqrtf(srsran_convert_dB_to_power(power_db));
   float O         = (delay_ns * 1e-9f * srate + path_delay) / (float)N;
   cf_t  a0        = amplitude / N;
 
@@ -471,7 +472,7 @@ int srsran_channel_fading_init(srsran_channel_fading_t* q, double srate, const c
       for (uint32_t j = 0; (float)j < SRSRAN_CHANNEL_FADING_NTERMS; j++) {
         q->coeff_a[i][j]     = srsran_random_uniform_real_dist(random, 0, 2.0f * (float)M_PI);
         q->coeff_b[i][j]     = srsran_random_uniform_real_dist(random, 0, 2.0f * (float)M_PI);
-        q->coeff_alpha[i][j] = ((float)M_PI * ((float)i - (float)0.5f)) / (2.0f * nof_taps[q->model]);
+        q->coeff_alpha[i][j] = ((float)M_PI * ((float)j - (float)0.5f)) / (2.0f * SRSRAN_CHANNEL_FADING_NTERMS);
       }
 
       // Allocate tap frequency response buffer
